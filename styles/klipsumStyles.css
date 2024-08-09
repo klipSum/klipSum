@@ -7183,7 +7183,7 @@
                             width:50px;
                             height:50px;
                             position:relative;
-                            background:#80998e;
+                            background:#575757;
                             border-radius:1000px;
                             transition:all 600ms ease;
                             -webkit-transition:all 600ms ease;
@@ -7604,7 +7604,7 @@
                                     margin-top:40px;
                                     border-radius:10px;
                                     display:inline-table;
-                                    background:#80998e;
+                                    background:#575757;
                                     box-shadow:0px 20px 30px -10px rgba(0,0,0,0.3);
                                     transition:all 400ms ease;
                                     -webkit-transition:all 400ms ease;
@@ -7645,7 +7645,7 @@
                                                 margin-top:37px;
                                                 border-radius:10px;
                                                 display:inline-table;
-                                                background:#80998e;
+                                                background:#575757;
                                                 box-shadow:0px 20px 30px -10px rgba(0,0,0,0.3);
                                                 transition:all 400ms ease;
                                                 -webkit-transition:all 400ms ease;
@@ -8427,7 +8427,7 @@
                                         color:#FFFFFF;
                                         font-weight:500;
                                         border-radius:10px;
-                                        background:#80998e;
+                                        background:#575757;
                                         padding:15px 0px 20px 0px;
                                         font-family: "Poppins", sans-serif;
                                         transition:all 600ms ease;
