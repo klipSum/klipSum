@@ -3050,7 +3050,7 @@
                             // ////////////////////////////////////////////////////
 
                                 "2 minutes",
-                                "is all you need",
+                                "is all you need.",
 
                                 "got 2 minutes? we've got 2 minute book readings just for you. Simply pick a book and let us read 2 minutes of if to you. Gotta go so soon? Then download it and listen on the go.",
 
@@ -4728,12 +4728,12 @@ function completedHandlingBox (completedText) {
                                 // INTRO AREA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                                 // ///////////////////////////////////////////////////////
     
-                                    headlinerTextContainer.style = ` width:370px; `
+                                    headlinerTextContainer.style = ` width:300px; `
     
                                     headlinerTextOne.style = ` text-align:right; `
                                     headlinerTextTwo.style = ` text-align:right; `
     
-                                    bodyTextContainer.style = ` width:360px; text-align:right; `
+                                    bodyTextContainer.style = ` width:300px; text-align:right; `
                                     bodyTextResizer.style = ` float:right; width:270px; `
     
                                     dividerCircleOne.style = `float:right; margin-left:10px; `
@@ -4781,7 +4781,7 @@ function completedHandlingBox (completedText) {
                                         // BOOK DETAILS SIDE =============================
                                         // ///////////////////////////////////////////////
     
-                                            bookNameDetailsSide.style = ` width:63%; `
+                                            bookNameDetailsSide.style = ` width:53%; `
     
                                             bookNameTextLineOne.style = ` text-align:right; `
                                             bookNameTextLineTwo.style = ` text-align:right; `
@@ -4918,13 +4918,13 @@ function completedHandlingBox (completedText) {
                                 // INTRO AREA xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
                                 // ///////////////////////////////////////////////////////
     
-                                    headlinerTextContainer.style = ` width:350px; `
+                                    headlinerTextContainer.style = ` width:300px; `
     
                                     headlinerTextOne.style = ` text-align:left; `
                                     headlinerTextTwo.style = ` text-align:left; `
     
-                                    bodyTextContainer.style = ` width:350px; text-align:left; `
-                                    bodyTextResizer.style = ` float:left; width:330px; `
+                                    bodyTextContainer.style = ` width:300px; text-align:left; `
+                                    bodyTextResizer.style = ` float:left; width:270px; `
     
                                     dividerCircleOne.style = `float:left; margin-left:0px; `
                                     dividerCircleTwo.style = ` float:left; margin-left:10px; `
@@ -4971,7 +4971,7 @@ function completedHandlingBox (completedText) {
                                         // BOOK DETAILS SIDE =============================
                                         // ///////////////////////////////////////////////
     
-                                            bookNameDetailsSide.style = ` width:63%; `
+                                            bookNameDetailsSide.style = ` width:53%; `
     
                                             bookNameTextLineOne.style = ` text-align:left; `
                                             bookNameTextLineTwo.style = ` text-align:left; `
@@ -5731,13 +5731,13 @@ function completedHandlingBox (completedText) {
 
                                                     pauseButtonOtherIconOne.style = `
                                                     
-                                                        background:#e9ad9e;
+                                                        background:#778d83;
 
                                                     `
 
                                                     pauseButtonOtherIconTwo.style = `
                                                     
-                                                        background:#e9ad9e;
+                                                        background:#778d83;
 
                                                     `
 
@@ -5764,7 +5764,7 @@ function completedHandlingBox (completedText) {
                                                 stopButtonOtherIconOne.style = `
                                                 
                                                     opacity:1;
-                                                    background:#e9ad9e;
+                                                    background:#778d83;
                                                 
                                                 `
 
@@ -6004,7 +6004,7 @@ function completedHandlingBox (completedText) {
                             downCircButtonSelectedIconOne.style = `
                             
                                 opacity:1;
-                                background:#e9ad9e;
+                                background:#778d83;
                             
                             `
 
@@ -6012,7 +6012,7 @@ function completedHandlingBox (completedText) {
                             downCircButtonSelectedIconTwo.style = `
                             
                                 opacity:1;
-                                background:#e9ad9e;
+                                background:#778d83;
                             
                             `
 
@@ -6020,7 +6020,7 @@ function completedHandlingBox (completedText) {
                             downCircButtonSelectedIconThree.style = `
                             
                                 opacity:1;
-                                background:#e9ad9e;
+                                background:#778d83;
                             
                             `
 
@@ -6028,7 +6028,7 @@ function completedHandlingBox (completedText) {
                             downCircButtonSelectedIconFour.style = `
                             
                                 opacity:1;
-                                background:#e9ad9e;
+                                background:#778d83;
                             
                             `
 
@@ -6300,13 +6300,13 @@ function completedHandlingBox (completedText) {
 
                                                     pauseButtonOtherIconOne.style = `
                                                     
-                                                        background:#e9ad9e;
+                                                        background:#778d83;
 
                                                     `
 
                                                     pauseButtonOtherIconTwo.style = `
                                                     
-                                                        background:#e9ad9e;
+                                                        background:#778d83;
 
                                                     `
 
@@ -6333,7 +6333,7 @@ function completedHandlingBox (completedText) {
                                                 stopButtonOtherIconOne.style = `
                                                 
                                                     opacity:1;
-                                                    background:#e9ad9e;
+                                                    background:#778d83;
                                                 
                                                 `
 
@@ -6501,13 +6501,13 @@ function completedHandlingBox (completedText) {
 
                             pauseButtonSelectedIconOne.style = `
                             
-                                background:#e9ad9e;
+                                background:#778d83;
 
                             `
 
                             pauseButtonSelectedIconTwo.style = `
                             
-                                background:#e9ad9e;
+                                background:#778d83;
 
                             `
 
@@ -6869,13 +6869,13 @@ function completedHandlingBox (completedText) {
 
                                                     pauseButtonOtherIconOne.style = `
                                                     
-                                                        background:#e9ad9e;
+                                                        background:#778d83;
 
                                                     `
 
                                                     pauseButtonOtherIconTwo.style = `
                                                     
-                                                        background:#e9ad9e;
+                                                        background:#778d83;
 
                                                     `
 
@@ -6902,7 +6902,7 @@ function completedHandlingBox (completedText) {
                                                 stopButtonOtherIconOne.style = `
                                                 
                                                     opacity:1;
-                                                    background:#e9ad9e;
+                                                    background:#778d83;
                                                 
                                                 `
 
@@ -7070,13 +7070,13 @@ function completedHandlingBox (completedText) {
 
                             pauseButtonSelectedIconOne.style = `
                             
-                                background:#e9ad9e;
+                                background:#778d83;
 
                             `
 
                             pauseButtonSelectedIconTwo.style = `
                             
-                                background:#e9ad9e;
+                                background:#778d83;
 
                             `
 
@@ -7109,7 +7109,7 @@ function completedHandlingBox (completedText) {
                             stopButtonSelectedIconOne.style = `
                             
                                 opacity:1;
-                                background:#e9ad9e;
+                                background:#778d83;
                             
                             `
 
@@ -7331,25 +7331,25 @@ function completedHandlingBox (completedText) {
 
                     downCircButtonSelectedIconOne.style = `
                     
-                        background:#e9ad9e;
+                        background:#778d83;
 
                     `
 
                     downCircButtonSelectedIconTwo.style = `
                     
-                        background:#e9ad9e;
+                        background:#778d83;
 
                     `
 
                     downCircButtonSelectedIconThree.style = `
                     
-                        background:#e9ad9e;
+                        background:#778d83;
 
                     `
 
                     downCircButtonSelectedIconFour.style = `
                     
-                        background:#e9ad9e;
+                        background:#778d83;
 
                     `
 
@@ -8418,13 +8418,13 @@ function completedHandlingBox (completedText) {
 
                             pauseButtonSelectedIconOne.style = `
                             
-                                background:#e9ad9e;
+                                background:#778d83;
 
                             `
 
                             pauseButtonSelectedIconTwo.style = `
                             
-                                background:#e9ad9e;
+                                background:#778d83;
 
                             `
 
@@ -8454,7 +8454,7 @@ function completedHandlingBox (completedText) {
 
                             stopButtonSelectedIconOne.style = `
                             
-                                background:#e9ad9e;
+                                background:#778d83;
 
                             `
 

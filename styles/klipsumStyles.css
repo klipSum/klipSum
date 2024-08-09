@@ -6,7 +6,7 @@
         width:100%;
         margin:0px auto;
         text-align:center;
-        background:#bdf0fb;
+        background:#e3d9d0;
         transition:all 600ms ease;
         -o-transition:all 600ms ease;
         -ms-transition:all 600ms ease;
@@ -17,7 +17,7 @@
 
     .klipsumMainControl{
 
-        width:400px;
+        width:300px;
         display:inline-table;
         transition:all 600ms ease;
         -o-transition:all 600ms ease;
@@ -166,7 +166,7 @@
 
         .klipsumNavBarResizer{
 
-            width:400px;
+            width:300px;
             height:50px;
             margin:0px auto;
             padding:10px 0px;
@@ -187,7 +187,7 @@
 
                 .klipsumNavBarLogoSide{
 
-                    width:40%;
+                    width:50%;
                     float:left;
                     transition:all 600ms ease;
                     -webkit-transition:all 600ms ease;
@@ -217,7 +217,7 @@
 
                 .klipsumNavBarContentSide{
 
-                    width:45%;
+                    width:50%;
                     float:right;
                     transition:all 600ms ease;
                     -webkit-transition:all 600ms ease;
@@ -229,7 +229,7 @@
 
                     .klipsumNavBarContentItemOne{
 
-                        width:85%;
+                        width:95%;
                         float:right;
                         cursor:pointer;
                         margin-top:15px;
@@ -263,7 +263,7 @@
 
     .klipsumLanguageSelectionContainer{
 
-        width:400px;
+        width:300px;
         z-index:3;
         position:fixed;
         margin-top:110px;
@@ -355,7 +355,7 @@
                 cursor:pointer;
                 border-radius:10px;
                 display:inline-table;
-                background:#f7c3b5;
+                background:#575757;
                 border-radius:0px 10px 10px 0px;
                 transition:all 600ms ease;
                 -o-transition:all 600ms ease;
@@ -524,7 +524,7 @@
                     position:relative;
                     border-radius:5px;
                     display:inline-table;
-                    background:rgb(233, 173, 158, 0.0);
+                    background:rgb(219, 193, 169, 0.0);
                     transition:all 600ms ease;
                     -o-transition:all 600ms ease;
                     -ms-transition:all 600ms ease;
@@ -540,6 +540,7 @@
                     left:0px;
                     right:0px;
                     z-index:3;
+                    color:#000000;
                     margin:0px auto;
                     padding:10px 0px;
                     position:relative;
@@ -561,7 +562,28 @@
                         position:relative;
                         border-radius:5px;
                         display:inline-table;
-                        background:rgb(233, 173, 158, 1.0);
+                        background:rgb(219, 193, 169, 1.0);
+                        transition:all 600ms ease;
+                        -o-transition:all 600ms ease;
+                        -ms-transition:all 600ms ease;
+                        -moz-transition:all 600ms ease;
+                        -webkit-transition:all 600ms ease;
+
+                    }
+
+                    .klipsumLanguageDropDownItemOneContainer:hover .klipsumLanguageDropDownItemOneHighlight{
+
+                        width:100%;
+                        height:100%;
+                        left:0px;
+                        right:0px;
+                        z-index:3;
+                        color:#000000;
+                        margin:0px auto;
+                        padding:10px 0px;
+                        position:relative;
+                        opacity:rgba(0,0,0,1.0);
+                        font-family:'DM Serif Display', serif;
                         transition:all 600ms ease;
                         -o-transition:all 600ms ease;
                         -ms-transition:all 600ms ease;
@@ -612,7 +634,7 @@
                     position:relative;
                     border-radius:5px;
                     display:inline-table;
-                    background:rgb(233, 173, 158, 0.0);
+                    background:rgb(219, 193, 169, 0.0);
                     transition:all 600ms ease;
                     -o-transition:all 600ms ease;
                     -ms-transition:all 600ms ease;
@@ -628,6 +650,7 @@
                     left:0px;
                     right:0px;
                     z-index:3;
+                    color:#000000;
                     margin:0px auto;
                     padding:10px 0px;
                     position:relative;
@@ -649,7 +672,28 @@
                         position:relative;
                         border-radius:5px;
                         display:inline-table;
-                        background:rgb(233, 173, 158, 1.0);
+                        background:rgb(219, 193, 169, 1.0);
+                        transition:all 600ms ease;
+                        -o-transition:all 600ms ease;
+                        -ms-transition:all 600ms ease;
+                        -moz-transition:all 600ms ease;
+                        -webkit-transition:all 600ms ease;
+
+                    }
+
+                    .klipsumLanguageDropDownItemTwoContainer:hover .klipsumLanguageDropDownItemTwoHighlight{
+
+                        width:100%;
+                        height:100%;
+                        left:0px;
+                        right:0px;
+                        z-index:3;
+                        color:#000000;
+                        margin:0px auto;
+                        padding:10px 0px;
+                        position:relative;
+                        opacity:rgba(0,0,0,1.0);
+                        font-family:'DM Serif Display', serif;
                         transition:all 600ms ease;
                         -o-transition:all 600ms ease;
                         -ms-transition:all 600ms ease;
@@ -675,9 +719,9 @@
 
     .klipsumHeaderIntroContainer{
 
-        width:350px;
+        width:300px;
         color:#2C2C2C;
-        margin-top:140px;
+        margin-top:170px;
         line-height:65px;
         display:inline-table;
         transition:all 600ms ease;
@@ -720,7 +764,7 @@
 
                 .klipsumSubHeaderTextContainer{
 
-                    width:350px;
+                    width:300px;
                     text-align:left;
                     margin-top:30px;
                     line-height:25px;
@@ -736,7 +780,7 @@
 
                     .klipsumSubHeaderTextResizer{
 
-                        width:330px;
+                        width:270px;
                         float:left;
                         font-weight:400;
                         transition:all 600ms ease;
@@ -764,7 +808,7 @@
 
     .klipsumLineDividsionContainer{
 
-        width:350px;
+        width:300px;
         margin-top:40px;
         display:inline-table;
         transition:all 600ms ease;
@@ -781,7 +825,7 @@
             height:15px;
             float:left;
             margin-left:0px;
-            background:#daf8ff;
+            background:#b7afa7;
             border-radius:1000px;
             box-shadow:0px 7px 11px 1px rgba(0, 0, 0, 0.1);
             transition:all 600ms ease;
@@ -798,7 +842,7 @@
             height:15px;
             float:left;
             margin-left:10px;
-            background:#daf8ff;
+            background:#b7afa7;
             border-radius:1000px;
             box-shadow:0px 7px 11px 1px rgba(0, 0, 0, 0.1);
             transition:all 600ms ease;
@@ -815,7 +859,7 @@
             height:15px;
             float:left;
             margin-left:10px;
-            background:#ffffff;
+            background:#f5eee7;
             border-radius:1000px;
             box-shadow:0px 7px 11px 1px rgba(0, 0, 0, 0.1);
             transition:all 600ms ease;
@@ -858,7 +902,7 @@
 
             width:15px;
             height:15px;
-            background:#daf8ff;
+            background:#f5eee7;
             border-radius:1000px;
             display:inline-table;
             box-shadow:0px 7px 11px 1px rgba(0, 0, 0, 0.1);
@@ -875,7 +919,7 @@
             width:15px;
             height:15px;
             margin-left:10px;
-            background:#daf8ff;
+            background:#f5eee7;
             border-radius:1000px;
             display:inline-table;
             box-shadow:0px 7px 11px 1px rgba(0, 0, 0, 0.1);
@@ -892,7 +936,7 @@
             width:15px;
             height:15px;
             margin-left:10px;
-            background:#daf8ff;
+            background:#f5eee7;
             border-radius:1000px;
             display:inline-table;
             box-shadow:0px 7px 11px 1px rgba(0, 0, 0, 0.1);
@@ -934,7 +978,7 @@
 
         .klipsumBookShelfResizer{
 
-            width:350px;
+            width:300px;
             display:inline-table;
             transition:all 600ms ease;
             -webkit-transition:all 600ms ease;
@@ -1059,7 +1103,7 @@
 
                                     .klipsumBookShelfBookOneHeadlineMainContainer{
 
-                                        width:63%;
+                                        width:53%;
                                         height:80px;
                                         display:inline-table;
                                         transition:all 600ms ease;
@@ -1146,7 +1190,7 @@
 
                                         .klipsumBookShelfBookOneAuthorTextTwo{
 
-                                            width:185px;
+                                            width:130px;
                                             top:0px;
                                             font-size:10px;
                                             font-weight:400;
@@ -1179,7 +1223,7 @@
                                 margin-top:10px;
                                 padding:10px 0px;
                                 border-radius:10px;
-                                background:#f7c3b5;
+                                background:#dbc1a9;
                                 box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
                                 transition:all 600ms ease;
                                 -webkit-transition:all 600ms ease;
@@ -1464,7 +1508,7 @@
                                                     margin-top:10px;
                                                     border-radius:3px;
                                                     display:inline-table;
-                                                    background:#e9ad9e;
+                                                    background:#c7b09a;
                                                     transition:all 600ms ease;
                                                     -webkit-transition:all 600ms ease;
                                                     -moz-transition:all 600ms ease;
@@ -1948,7 +1992,7 @@
                                                 margin-top:10px;
                                                 border-radius:3px;
                                                 display:inline-table;
-                                                background:#e9ad9e;
+                                                background:#c7b09a;
                                                 transition:all 600ms ease;
                                                 -webkit-transition:all 600ms ease;
                                                 -moz-transition:all 600ms ease;
@@ -2244,7 +2288,7 @@
 
                                     .klipsumBookShelfBookTwoHeadlineMainContainer{
 
-                                        width:63%;
+                                        width:53%;
                                         height:80px;
                                         display:inline-table;
                                         transition:all 600ms ease;
@@ -2331,7 +2375,7 @@
                                     
                                         .klipsumBookShelfBookTwoAuthorTextTwo{
 
-                                            width:185px;
+                                            width:130px;
                                             top:0px;
                                             font-size:10px;
                                             font-weight:400;
@@ -2364,7 +2408,7 @@
                                 margin-top:10px;
                                 padding:10px 0px;
                                 border-radius:10px;
-                                background:#f7c3b5;
+                                background:#dbc1a9;
                                 box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
                                 transition:all 600ms ease;
                                 -webkit-transition:all 600ms ease;
@@ -2649,7 +2693,7 @@
                                                     margin-top:10px;
                                                     border-radius:3px;
                                                     display:inline-table;
-                                                    background:#e9ad9e;
+                                                    background:#c7b09a;
                                                     transition:all 600ms ease;
                                                     -webkit-transition:all 600ms ease;
                                                     -moz-transition:all 600ms ease;
@@ -3133,7 +3177,7 @@
                                                 margin-top:10px;
                                                 border-radius:3px;
                                                 display:inline-table;
-                                                background:#e9ad9e;
+                                                background:#c7b09a;
                                                 transition:all 600ms ease;
                                                 -webkit-transition:all 600ms ease;
                                                 -moz-transition:all 600ms ease;
@@ -3429,7 +3473,7 @@
 
                                     .klipsumBookShelfBookThreeHeadlineMainContainer{
 
-                                        width:63%;
+                                        width:53%;
                                         height:80px;
                                         display:inline-table;
                                         transition:all 600ms ease;
@@ -3516,7 +3560,7 @@
                                     
                                         .klipsumBookShelfBookThreeAuthorTextTwo{
 
-                                            width:185px;
+                                            width:130px;
                                             top:0px;
                                             font-size:10px;
                                             font-weight:400;
@@ -3549,7 +3593,7 @@
                                 margin-top:10px;
                                 padding:10px 0px;
                                 border-radius:10px;
-                                background:#f7c3b5;
+                                background:#dbc1a9;
                                 box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
                                 transition:all 600ms ease;
                                 -webkit-transition:all 600ms ease;
@@ -3834,7 +3878,7 @@
                                                     margin-top:10px;
                                                     border-radius:3px;
                                                     display:inline-table;
-                                                    background:#e9ad9e;
+                                                    background:#c7b09a;
                                                     transition:all 600ms ease;
                                                     -webkit-transition:all 600ms ease;
                                                     -moz-transition:all 600ms ease;
@@ -4318,7 +4362,7 @@
                                                 margin-top:10px;
                                                 border-radius:3px;
                                                 display:inline-table;
-                                                background:#e9ad9e;
+                                                background:#c7b09a;
                                                 transition:all 600ms ease;
                                                 -webkit-transition:all 600ms ease;
                                                 -moz-transition:all 600ms ease;
@@ -4614,7 +4658,7 @@
 
                                     .klipsumBookShelfBookFourHeadlineMainContainer{
 
-                                        width:63%;
+                                        width:53%;
                                         height:80px;
                                         display:inline-table;
                                         transition:all 600ms ease;
@@ -4701,7 +4745,7 @@
                                     
                                         .klipsumBookShelfBookFourAuthorTextTwo{
 
-                                            width:185px;
+                                            width:130px;
                                             top:0px;
                                             font-size:10px;
                                             font-weight:400;
@@ -4734,7 +4778,7 @@
                                 margin-top:10px;
                                 padding:10px 0px;
                                 border-radius:10px;
-                                background:#f7c3b5;
+                                background:#dbc1a9;
                                 box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
                                 transition:all 600ms ease;
                                 -webkit-transition:all 600ms ease;
@@ -5019,7 +5063,7 @@
                                                     margin-top:10px;
                                                     border-radius:3px;
                                                     display:inline-table;
-                                                    background:#e9ad9e;
+                                                    background:#c7b09a;
                                                     transition:all 600ms ease;
                                                     -webkit-transition:all 600ms ease;
                                                     -moz-transition:all 600ms ease;
@@ -5503,7 +5547,7 @@
                                                 margin-top:10px;
                                                 border-radius:3px;
                                                 display:inline-table;
-                                                background:#e9ad9e;
+                                                background:#c7b09a;
                                                 transition:all 600ms ease;
                                                 -webkit-transition:all 600ms ease;
                                                 -moz-transition:all 600ms ease;
@@ -5799,7 +5843,7 @@
 
                                     .klipsumBookShelfBookFiveHeadlineMainContainer{
 
-                                        width:63%;
+                                        width:53%;
                                         height:80px;
                                         display:inline-table;
                                         transition:all 600ms ease;
@@ -5886,7 +5930,7 @@
                                     
                                         .klipsumBookShelfBookFiveAuthorTextTwo{
 
-                                            width:185px;
+                                            width:130px;
                                             top:0px;
                                             font-size:10px;
                                             font-weight:400;
@@ -5919,7 +5963,7 @@
                                 margin-top:10px;
                                 padding:10px 0px;
                                 border-radius:10px;
-                                background:#f7c3b5;
+                                background:#dbc1a9;
                                 box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
                                 transition:all 600ms ease;
                                 -webkit-transition:all 600ms ease;
@@ -6204,7 +6248,7 @@
                                                     margin-top:10px;
                                                     border-radius:3px;
                                                     display:inline-table;
-                                                    background:#e9ad9e;
+                                                    background:#c7b09a;
                                                     transition:all 600ms ease;
                                                     -webkit-transition:all 600ms ease;
                                                     -moz-transition:all 600ms ease;
@@ -6688,7 +6732,7 @@
                                                 margin-top:10px;
                                                 border-radius:3px;
                                                 display:inline-table;
-                                                background:#e9ad9e;
+                                                background:#c7b09a;
                                                 transition:all 600ms ease;
                                                 -webkit-transition:all 600ms ease;
                                                 -moz-transition:all 600ms ease;
@@ -7042,7 +7086,7 @@
 
                 .sideMenuCloseButtonContainer{
 
-                    width:90%;
+                    width:300px;
                     z-index:2;
                     top:20px;
                     left:0px;
@@ -7139,7 +7183,7 @@
                             width:50px;
                             height:50px;
                             position:relative;
-                            background:#e7bfb5;
+                            background:#80998e;
                             border-radius:1000px;
                             transition:all 600ms ease;
                             -webkit-transition:all 600ms ease;
@@ -7283,7 +7327,7 @@
                         left:0px;
                         right:0px;
                         margin:0px auto;
-                        padding:10px 0px;
+                        padding:30px 0px;
                         position:relative;
                         transition:all 600ms ease;
                         -webkit-transition:all 600ms ease;
@@ -7295,7 +7339,7 @@
 
                         .sideMenuDeepDiveSideMainContainer{
 
-                            width:400px;
+                            width:300px;
                             display:inline-table;
                             padding:0px 0px 30px 0px;
                             transition:all 600ms ease;
@@ -7560,7 +7604,7 @@
                                     margin-top:40px;
                                     border-radius:10px;
                                     display:inline-table;
-                                    background:#EDAFA1;
+                                    background:#80998e;
                                     box-shadow:0px 20px 30px -10px rgba(0,0,0,0.3);
                                     transition:all 400ms ease;
                                     -webkit-transition:all 400ms ease;
@@ -7601,7 +7645,7 @@
                                                 margin-top:37px;
                                                 border-radius:10px;
                                                 display:inline-table;
-                                                background:#EDAFA1;
+                                                background:#80998e;
                                                 box-shadow:0px 20px 30px -10px rgba(0,0,0,0.3);
                                                 transition:all 400ms ease;
                                                 -webkit-transition:all 400ms ease;
@@ -7684,7 +7728,7 @@
 
                                 .contactFormResizer{
 
-                                    width:400px;
+                                    width:300px;
                                     margin-top:50px;
                                     padding:50px 0px;
                                     border-radius:10px;
@@ -7987,7 +8031,7 @@
                                                                             top:12px;
                                                                             position:relative;
                                                                             border-radius:10px;
-                                                                            background:#e9ad9e;
+                                                                            background:#80998e;
                                                                             transition:all 600ms ease;
                                                                             -o-transition:all 600ms ease;
                                                                             -ms-transition:all 600ms ease;
@@ -8010,7 +8054,7 @@
                                                                                     top:8px;
                                                                                     position:relative;
                                                                                     border-radius:10px;
-                                                                                    background:#e9ad9e;
+                                                                                    background:#80998e;
                                                                                     transition:all 600ms ease;
                                                                                     -o-transition:all 600ms ease;
                                                                                     -ms-transition:all 600ms ease;
@@ -8175,7 +8219,7 @@
                                                                         margin-top:0px;
                                                                         border-radius:10px;
                                                                         display:inline-table;
-                                                                        background:#EDAFA1;
+                                                                        background:#80998e;
                                                                         border:0px solid rgba(0,0,0,0.0);
                                                                         box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
                                                                         transition:all 400ms ease;
@@ -8201,7 +8245,7 @@
                                                                                 margin-top:-5px;
                                                                                 border-radius:10px;
                                                                                 display:inline-table;
-                                                                                background:#EDAFA1;
+                                                                                background:#80998e;
                                                                                 border:0px solid rgba(0,0,0,0.0);
                                                                                 box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
                                                                                 transition:all 400ms ease;
@@ -8258,7 +8302,7 @@
 
                         .sideMenuSuggestionsSideResizer{
 
-                            width:350px;
+                            width:300px;
                             display:inline-table;
                             padding:50px 0px 0px 0px;
                             transition:all 600ms ease;
@@ -8383,7 +8427,7 @@
                                         color:#FFFFFF;
                                         font-weight:500;
                                         border-radius:10px;
-                                        background:#EDAFA1;
+                                        background:#80998e;
                                         padding:15px 0px 20px 0px;
                                         font-family: "Poppins", sans-serif;
                                         transition:all 600ms ease;
