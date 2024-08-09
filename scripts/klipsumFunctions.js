@@ -9066,8 +9066,6 @@ function completedHandlingBox (completedText) {
         // ////////////////////////////////////////////////////////////////
 
 
-            alert("ENDED...")
-
             endAudioButtonResets()
 
 
