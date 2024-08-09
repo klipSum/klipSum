@@ -193,7 +193,7 @@
             "Benjamin Graham",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/intelInvestor.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/intelInvestor.mp3",
 
 
             "Benjamin Graham's The Intelligent Investor explores value investing principles and risk management strategies. It stresses the importance of in-depth analysis, long-term investing, and maintaining a margin of safety.",
@@ -217,7 +217,7 @@
             "Morgan Housel",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/psychoMoney.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/psychoMoney.mp3",
 
 
             "The Psychology of Money by Morgan Housel delves into the intricate relationship between human behavior and financial decisions. Housel explores the psychological aspects that influence how people manage money, emphasizing the importance of mindset and habits.",
@@ -242,7 +242,7 @@
             "Ramit Sethi",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/teachYou.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/teachYou.mp3",
 
 
             "I Will Teach You to Be Rich by Ramit Sethi offers practical advice on personal finance, focusing on automation, conscious spending, and investing. Sethi emphasizes the importance of setting financial goals, optimizing savings, and creating a system for financial success.",
@@ -267,7 +267,7 @@
             "Robert T. Kiyosaki",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/richDad.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/richDad.mp3",
 
 
             "Rich Dad, Poor Dad by Robert T. Kiyosaki contrasts the financial teachings of his own rich dad with those of his poor dad, illustrating the mindset and strategies for wealth creation.",
@@ -292,7 +292,7 @@
             "John C. Bogle",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/commonSense.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/commonSense.mp3",
 
 
             "The Little Book of Common Sense by John C. Bogle introduces readers to the fundamental principles of successful investing, emphasizing simplicity, low costs, and long-term strategies.",
@@ -317,7 +317,7 @@
             "Niall Ferguson",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/theAscent.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/theAscent.mp3",
 
 
             "Harvard Professor Niall Ferguson's book delves into the financial history of the world, exploring the evolution of banking, insurance, and real estate markets.",
@@ -342,7 +342,7 @@
             "Andrew Aziz",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/dayTrade.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/dayTrade.mp3",
 
 
             "Andrew Aziz's book, How to Day Trade for a Living, offers beginners a comprehensive guide to understanding day trading and its distinctions from other trading styles.",
@@ -367,7 +367,7 @@
             "J L Collins",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/simpleWealth.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/simpleWealth.mp3",
 
 
             "The Simple Path to Wealth by J.L. Collins presents a straightforward approach to financial independence through index fund investing and mindful spending.",
@@ -392,7 +392,7 @@
             "Tiffany Aliche",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/getGoodMoney.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/getGoodMoney.mp3",
 
 
             "Get Good with Money by Tiffany Aliche is a practical guide that empowers readers to take control of their finances through budgeting, saving, and investing.",
@@ -417,7 +417,7 @@
             "Scott Trench",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/setForLife.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/setForLife.mp3",
 
 
             "Set for Life by Scott Trench offers practical guidance on achieving financial independence through real estate investment, frugal living, and strategic money management.",
@@ -459,7 +459,7 @@
             "Stephen King",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/fairyTale.mp3",
+            "https://fansite.onrender.com/media/fanMedia/fairyTale.mp3",
 
 
             "Fairy Tale by Stephen King is a gripping dark fantasy novel depicting the journey of Charlie Reade, a teenager thrust into a battle of cosmic proportions.",
@@ -484,7 +484,7 @@
             "JA Andrews",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/pursuit.mp3",
+            "https://fansite.onrender.com/media/fanMedia/pursuit.mp3",
 
 
             "In Pursuit of Shadows, book 2, by J.A. Andrews, the second installment of The Keeper Chronicles, Keeper Will embarks on a quest to locate his missing sister.",
@@ -509,7 +509,7 @@
             "Heather G. Harris",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/revival.mp3",
+            "https://fansite.onrender.com/media/fanMedia/revival.mp3",
 
 
             "Join the thrilling wedding of Jinx and Emory in The Other Realm series' seventh book by an invite disrupted by the ominous Connection.",
@@ -534,7 +534,7 @@
             "Chris Colfer",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/witchCraft.mp3",
+            "https://fansite.onrender.com/media/fanMedia/witchCraft.mp3",
 
 
             "This captivating book evokes nostalgic childhood adventures with beloved fairytale characters.",
@@ -559,7 +559,7 @@
             "Jez Cajiao",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/bronze.mp3",
+            "https://fansite.onrender.com/media/fanMedia/bronze.mp3",
 
 
             "The book follows a dungeon lord navigating a post-apocalyptic world, striving to survive and thrive amidst chaos",
@@ -584,7 +584,7 @@
             "Tomi Adeyemi",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/children.mp3",
+            "https://fansite.onrender.com/media/fanMedia/children.mp3",
 
 
             "Children of Blood and Bone by Tomi Adeyemi is a captivating young adult fantasy novel that introduces readers to the courageous Zélie Adebola on a quest to revive magic in the kingdom of Orïsha.",
@@ -609,7 +609,7 @@
             "Cassandra Clare",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/chains.mp3",
+            "https://fansite.onrender.com/media/fanMedia/chains.mp3",
 
 
             "In Cassandra Clare's Chain of Gold, Cordelia Carstairs, a determined Shadowhunter, faces family turmoil and a forbidden love for James Herondale.",
@@ -634,7 +634,7 @@
             "Travis Baldree",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/legends.mp3",
+            "https://fansite.onrender.com/media/fanMedia/legends.mp3",
 
 
             "Legends & Lattes by Travis Baldree is a captivating high fantasy novel inspired by the world of Dungeons & Dragons.",
@@ -659,7 +659,7 @@
             "Aaron Ehasz",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/dragonPrince.mp3",
+            "https://fansite.onrender.com/media/fanMedia/dragonPrince.mp3",
 
 
             "The Dragon Prince is a critically acclaimed novel and now also an animated fantasy series on Netflix, created by Aaron Ehasz and Justin Richmond.",
@@ -684,7 +684,7 @@
             "John Gwynne",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/shadowOfGods.mp3",
+            "https://fansite.onrender.com/media/fanMedia/shadowOfGods.mp3",
 
 
             "John Gwynne's The Shadow of the Gods introduces a captivating Norse mythology-inspired world through the intertwined tales of Orka, Elvar, and Varg.",
@@ -726,7 +726,7 @@
             "Blake Crouch",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/recurssion.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/recurssion.mp3",
 
 
             "Blake Crouch's thriller science fiction novel, Recursion, delves into the complexities of memory, identity, and time.",
@@ -751,7 +751,7 @@
             "Peter Grainger",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/anotherGirl.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/anotherGirl.mp3",
 
 
             "In this new installation of Peter Grainger's King's Lake Mystery series, Grainger skillfully places his characters in peril, adding a thrilling dimension to his typical investigative narrative.",
@@ -776,7 +776,7 @@
             "Jim Butcher",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/theLaw.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/theLaw.mp3",
 
 
             "In The Law by Jim Butcher, the novella blends a mix of lightness with overarching character development, featuring both familiar faces like Marcone and new characters. ",
@@ -801,7 +801,7 @@
             "Lisa Regan",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/breath.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/breath.mp3",
 
 
             "Regan's storytelling excels in providing a comprehensive view of characters and their developments, offering a rich narrative perspective.",
@@ -826,7 +826,7 @@
             "Brad Thor",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/deadFall.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/deadFall.mp3",
 
 
             "In Brad Thor's Dead Fall, readers are thrust into a world of high-stakes intrigue and deadly conspiracies, following the counterterrorism operative Scot Harvath on a mission to uncover a sinister global plot.",
@@ -851,7 +851,7 @@
             "JD Kirk",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/theAges.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/theAges.mp3",
 
 
             "In JD Kirk's One for the Ages, the 16th installment of the DCI Jack Logan series, a remote Highland village is rocked by its first murder of an elderly woman.",
@@ -876,7 +876,7 @@
             "Christy Barritt",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/lastTarget.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/lastTarget.mp3",
 
 
             "In Christy Barritt's The Last Target, a fast-paced romantic suspense unfolds with compelling characters and relentless danger from the first shot fired on page one.",
@@ -901,7 +901,7 @@
             "Ward Larsen",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/deepFake.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/deepFake.mp3",
 
 
             "In Ward Larsen's Deep Fake, the gripping narrative unfolds with a sense of urgency as Sarah Ridgeway, a congressman's wife, delves into the unsettling truth behind her husband's mysterious behavior after a terrorist attack.",
@@ -926,7 +926,7 @@
             "Caroline Kepnes",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/you.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/you.mp3",
 
 
             "Caroline Kepnes' thriller novel You follows the gripping tale narrated by Joe Goldberg, a bookstore employee whose fixation on aspiring writer Beck drives the story.",
@@ -951,7 +951,7 @@
             "Logan Ryles",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/brink.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/brink.mp3",
 
 
             "In Logan Ryles' Brink of War, the action thriller unfolds with a mix of excitement and shortcomings, blending fast-paced sequences with inaccuracies in military equipment details. ",
@@ -993,7 +993,7 @@
             "Philip Pullman",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/goldCompass.mp3",
+            "https://advsite.onrender.com/media/advMedia/goldCompass.mp3",
 
 
             "In this trillogy, Philip Pullman introduces readers to a parallel universe in which souls manifest as dæmons, external animal companions linked to individuals' emotions and senses.",
@@ -1018,7 +1018,7 @@
             "Shirtaloon",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/whoFights.mp3",
+            "https://advsite.onrender.com/media/advMedia/whoFights.mp3",
 
 
             "Shirtaloon's captivating series immerses readers in a unique blend of LitRPG and Progression Fantasy, where Jason finds himself in a magical realm filled with challenges and mysteries.",
@@ -1043,7 +1043,7 @@
             "Karen Inglis",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/lake.mp3",
+            "https://advsite.onrender.com/media/advMedia/lake.mp3",
 
 
             "This is why you have a few legs whIn Karen Inglis' enchanting tale, Stella and Tom embark on a time-travel adventure through a hidden cave, uncovering a century-old mystery and helping right a past injustice.",
@@ -1068,7 +1068,7 @@
             "Yann Martel",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/pi.mp3",
+            "https://advsite.onrender.com/media/advMedia/pi.mp3",
 
 
             "In Yann Martel's Life of Pi, the young protagonist Pi recounts his harrowing journey across the Pacific Ocean post-shipwreck, accompanied by a tiger named Richard Parker.",
@@ -1093,7 +1093,7 @@
             "Neil Gaiman",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/theOcean.mp3",
+            "https://advsite.onrender.com/media/advMedia/theOcean.mp3",
 
 
             "Neil Gaiman's captivating novel follows a man who revisits his childhood home after a funeral, leading him to the enigmatic Hempstock farmhouse and its powerful female residents.",
@@ -1118,7 +1118,7 @@
             "Kelley Armstrong",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/sea.mp3",
+            "https://advsite.onrender.com/media/advMedia/sea.mp3",
 
 
             "In Sea of Shadows, Ashyn and Moria, twin sisters serving as the Keeper and Seeker of Edgewood, must safeguard their land from vengeful spirits in the Forest of the Dead.",
@@ -1143,7 +1143,7 @@
             "Adrienne Young",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/fable.mp3",
+            "https://advsite.onrender.com/media/advMedia/fable.mp3",
 
 
             "In a ruthless fictional world, Fable centers on found family amidst a backdrop of survival challenges.",
@@ -1168,7 +1168,7 @@
             "Kelly Barnhill",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/theMoon.mp3",
+            "https://advsite.onrender.com/media/advMedia/theMoon.mp3",
 
 
             "In The Girl Who Drank The Moon, a tale of family, growth, and magic unfolds. The book evolves from a simple tale of Luna's magic to a complex narrative intertwining various plot strands.",
@@ -1193,7 +1193,7 @@
             "Patricia Briggs",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/huntingGround.mp3",
+            "https://advsite.onrender.com/media/advMedia/huntingGround.mp3",
 
 
             "In Hunting Ground, personal struggles between Anna and Charles add layers to their relationship dynamics, with Charles grappling with feelings of inadequacy and Anna navigating her fears.",
@@ -1218,7 +1218,7 @@
             "C.A. Fletcher",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/hisDog.mp3",
+            "https://advsite.onrender.com/media/advMedia/hisDog.mp3",
 
 
             "In this gripping tale, Griz's compelling narration blends naivety and wisdom, painting a vivid picture of life post-apocalypse.",
@@ -1260,7 +1260,7 @@
             "John Cleese",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/creativity.mp3",
+            "https://comsite.onrender.com/media/comMedia/creativity.mp3",
 
 
             "In Creativity, John Cleese offers a captivating glimpse into the creative process behind iconic works like Monty Python and Fawlty Towers.",
@@ -1285,7 +1285,7 @@
             "Seth Rogan",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/yearBook.mp3",
+            "https://comsite.onrender.com/media/comMedia/yearBook.mp3",
 
 
             "Seth Rogen's Yearbook stands out as a hilarious and engaging read, filled with true stories and essays spanning his childhood to his career.",
@@ -1310,7 +1310,7 @@
             "Peter Holmes",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/comedy.mp3",
+            "https://comsite.onrender.com/media/comMedia/comedy.mp3",
 
 
             "Pete Holmes recounts his upbringing as an evangelical Christian, shaped by strict moral codes and beliefs.",
@@ -1335,7 +1335,7 @@
             "Norm Macdonald",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/trueStory.mp3",
+            "https://comsite.onrender.com/media/comMedia/trueStory.mp3",
 
 
             "Norm Macdonald's Based on a True Story intertwines the narrative of a renowned Canadian comedian's rise to fame on Saturday Night Live with a quirky fictional storyline about a ghostwriter crafting the comedian's memoir.",
@@ -1360,7 +1360,7 @@
             "David Sedaris",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/happy.mp3",
+            "https://comsite.onrender.com/media/comMedia/happy.mp3",
 
 
             "David Sedaris delves into his tumultuous past and quirky family dynamics in Happy-Go-Lucky, reflecting on the impact of his upbringing on his comedic approach.",
@@ -1385,7 +1385,7 @@
             "Colin Jost",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/punchable.mp3",
+            "https://comsite.onrender.com/media/comMedia/punchable.mp3",
 
 
             "Colin Jost's memoir, A Very Punchable Face, offers a humorous and candid look at his life journey, from a Staten Island upbringing to Harvard and beyond.",
@@ -1410,7 +1410,7 @@
             "Jerry Seinfeld",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/anything.mp3",
+            "https://comsite.onrender.com/media/comMedia/anything.mp3",
 
 
             "Is This Anything? offers a comprehensive exploration of life's moments and musings, from childhood to parenthood, captured in decades of meticulously crafted comedy material.",
@@ -1435,7 +1435,7 @@
             "Judy Carter",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/new.mp3",
+            "https://comsite.onrender.com/media/comMedia/new.mp3",
 
 
             "The New Comedy Bible by Judy Carter offers a comprehensive guide to aspiring stand-up comedians, featuring step-by-step instructions for writing, performing, and launching a successful comedy career.",
@@ -1460,7 +1460,7 @@
             "Andy Gardner",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/howFunny.mp3",
+            "https://comsite.onrender.com/media/comMedia/howFunny.mp3",
 
 
             "How To Be Funny is an essential guide for those seeking to enhance their comedic skills and become the life of the party.",
@@ -1485,7 +1485,7 @@
             "Bob Odenkirk",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/comedyX3.mp3",
+            "https://comsite.onrender.com/media/comMedia/comedyX3.mp3",
 
 
             "Comedy Comedy Comedy Drama delves into the career and comedic evolution of actor Bob Odenkirk, known for his roles in Better Call Saul and Mr. Show.",
@@ -1520,7 +1520,7 @@
             "Benjamin Graham",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/intelInvestor.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/intelInvestor.mp3",
 
 
             'يستكشف كتاب "المستثمر الذكي" لبنجامين جراهام مبادئ استثمار القيمة واستراتيجيات إدارة المخاطر. ويشدد على أهمية التحليل المتعمق والاستثمار طويل الأجل والحفاظ على هامش الأمان.',
@@ -1544,7 +1544,7 @@
             "Morgan Housel",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/psychoMoney.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/psychoMoney.mp3",
 
 
             'يتعمق كتاب "علم نفس المال" للكاتب مورجان هاوسل في العلاقة المعقدة بين السلوك البشري والقرارات المالية. يستكشف هاوسل الجوانب النفسية التي تؤثر على كيفية إدارة الناس للأموال، مع التركيز على أهمية العقلية والعادات.',
@@ -1569,7 +1569,7 @@
             "Ramit Sethi",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/teachYou.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/teachYou.mp3",
 
 
             'يقدم كتاب "سأعلمك كيف تصبح ثريًا" بقلم راميت سيثي نصائح عملية حول التمويل الشخصي، مع التركيز على الأتمتة، والإنفاق الواعي، والاستثمار. يؤكد سيثي على أهمية تحديد الأهداف المالية، وتحسين المدخرات، وإنشاء نظام للنجاح المالي.',
@@ -1594,7 +1594,7 @@
             "Robert T. Kiyosaki",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/richDad.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/richDad.mp3",
 
 
             'الأب الغني، الأب الفقير بقلم روبرت تي كيوساكي يقارن التعاليم المالية لوالده الغني مع تعاليم والده الفقير، موضحًا العقلية والاستراتيجيات اللازمة لخلق الثروة.',
@@ -1619,7 +1619,7 @@
             "John C. Bogle",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/commonSense.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/commonSense.mp3",
 
 
             'يقدم الكتاب الصغير للحس السليم بقلم جون سي بوجل للقراء المبادئ الأساسية للاستثمار الناجح، مع التركيز على البساطة والتكاليف المنخفضة والاستراتيجيات طويلة المدى.',
@@ -1644,7 +1644,7 @@
             "Niall Ferguson",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/theAscent.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/theAscent.mp3",
 
 
             'يتعمق كتاب البروفيسور نيال فيرجسون من جامعة هارفارد في التاريخ المالي للعالم، ويستكشف تطور أسواق البنوك والتأمين والعقارات.',
@@ -1669,7 +1669,7 @@
             "Andrew Aziz",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/dayTrade.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/dayTrade.mp3",
 
 
             'كتاب أندرو عزيز، كيفية التداول اليومي من أجل لقمة العيش، يقدم للمبتدئين دليلاً شاملاً لفهم التداول اليومي وتمييزه عن أساليب التداول الأخرى.',
@@ -1694,7 +1694,7 @@
             "J L Collins",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/simpleWealth.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/simpleWealth.mp3",
 
 
             'يقدم كتاب "الطريق البسيط إلى الثروة" بقلم جيه إل كولينز منهجًا مباشرًا للاستقلال المالي من خلال الاستثمار في صناديق المؤشرات والإنفاق الواعي.',
@@ -1719,7 +1719,7 @@
             "Tiffany Aliche",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/getGoodMoney.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/getGoodMoney.mp3",
 
 
             'احصل على المال الجيد من تأليف تيفاني أليش وهو دليل عملي يمكّن القراء من التحكم في مواردهم المالية من خلال وضع الميزانية والادخار والاستثمار.',
@@ -1744,7 +1744,7 @@
             "Scott Trench",
 
 
-            "https://klipsumfinsite.netlify.app/media/finMedia/setForLife.mp3",
+            "https://finsite-7i94.onrender.com/media/finMedia/setForLife.mp3",
 
 
             'يقدم كتاب "جيد للحياة" بقلم سكوت ترينش إرشادات عملية حول تحقيق الاستقلال المالي من خلال الاستثمار العقاري، والمعيشة المقتصدة، وإدارة الأموال الاستراتيجية.',
@@ -1786,7 +1786,7 @@
             "Stephen King",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/fairyTale.mp3",
+            "https://fansite.onrender.com/media/fanMedia/fairyTale.mp3",
 
 
             'الحكاية الخيالية لستيفن كينج هي رواية خيالية مظلمة تصور رحلة تشارلي ريد، وهو مراهق اندفع إلى معركة ذات أبعاد كونية.',
@@ -1811,7 +1811,7 @@
             "JA Andrews",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/pursuit.mp3",
+            "https://fansite.onrender.com/media/fanMedia/pursuit.mp3",
 
 
             'في السعي وراء الظلال، الكتاب الثاني، بقلم جا أندروز، الدفعة الثانية من سجلات الحارس، يشرع الحارس ويليام في البحث عن مكان أخته المفقودة.',
@@ -1836,7 +1836,7 @@
             "Heather G. Harris",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/revival.mp3",
+            "https://fansite.onrender.com/media/fanMedia/revival.mp3",
 
 
             'انضم إلى حفل الزفاف المثير لجينكس وإيموري في الكتاب السابع من سلسلة عالم آخر من خلال دعوة تعطلت بسبب الاتصال المشؤوم.',
@@ -1861,7 +1861,7 @@
             "Chris Colfer",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/witchCraft.mp3",
+            "https://fansite.onrender.com/media/fanMedia/witchCraft.mp3",
 
 
             'يثير هذا الكتاب الآسر مغامرات الطفولة الحنينية مع شخصيات القصص الخيالية المحبوبة.',
@@ -1886,7 +1886,7 @@
             "Jez Cajiao",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/bronze.mp3",
+            "https://fansite.onrender.com/media/fanMedia/bronze.mp3",
 
 
             'يتبع الكتاب سيد الزنزانة الذي يبحر في عالم ما بعد نهاية العالم، ويسعى جاهداً للبقاء والازدهار وسط الفوضى',
@@ -1911,7 +1911,7 @@
             "Tomi Adeyemi",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/children.mp3",
+            "https://fansite.onrender.com/media/fanMedia/children.mp3",
 
 
             'أطفال الدم والعظام بقلم تومي أديمي هي رواية خيالية آسرة للشباب البالغين تقدم للقراء زيلي أديبولا الشجاعة في سعيها لإحياء السحر في مملكة أوريشا.',
@@ -1936,7 +1936,7 @@
             "Cassandra Clare",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/chains.mp3",
+            "https://fansite.onrender.com/media/fanMedia/chains.mp3",
 
 
             'في سلسلة كاساندرا كلير الذهبية، تواجه كورديليا كارستيرز، صائدة الظلال المصممة، اضطرابًا عائليًا وحبًا ممنوعًا لجيمس هيرونديل.',
@@ -1961,7 +1961,7 @@
             "Travis Baldree",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/legends.mp3",
+            "https://fansite.onrender.com/media/fanMedia/legends.mp3",
 
 
             'الأساطير والقهوة بالحليب من تأليف ترافيس بالدري هي رواية خيالية عالية آسرة مستوحاة من عالم الزنزانات والتنينات.',
@@ -1986,7 +1986,7 @@
             "Aaron Ehasz",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/dragonPrince.mp3",
+            "https://fansite.onrender.com/media/fanMedia/dragonPrince.mp3",
 
 
             'الأمير التنين هي رواية نالت استحسان النقاد وهي الآن أيضًا سلسلة رسوم متحركة خيالية على Netflix أنشأها آرون إهاز وجاستن ريتشموند.',
@@ -2011,7 +2011,7 @@
             "John Gwynne",
 
 
-            "https://klipsumfansite.netlify.app/media/fanMedia/shadowOfGods.mp3",
+            "https://fansite.onrender.com/media/fanMedia/shadowOfGods.mp3",
 
 
             'يقدم جون جوين ظل الآلهة عالمًا آسرًا مستوحى من الأساطير الإسكندنافية من خلال الحكايات المتشابكة لكل من أوكرا وألفار وفارج.',
@@ -2053,7 +2053,7 @@
             "Blake Crouch",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/recurssion.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/recurssion.mp3",
 
 
             'رواية الخيال العلمي المثيرة لبليك كراوتش، العودية، تتعمق في تعقيدات الذاكرة والهوية والوقت.',
@@ -2078,7 +2078,7 @@
             "Peter Grainger",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/anotherGirl.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/anotherGirl.mp3",
 
 
             'في هذا التثبيت الجديد لسلسلة لغز البحيرة الملكية لبيتر غرينجر، يضع غرينجر شخصياته في خطر بمهارة، مما يضيف بعدًا مثيرًا إلى روايته الاستقصائية النموذجية',
@@ -2103,7 +2103,7 @@
             "Jim Butcher",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/theLaw.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/theLaw.mp3",
 
 
             'في رواية القانون لجيم بوتشر، تمزج الرواية مزيجًا من الخفة مع التطور الشامل للشخصية، وتتميز بوجوه مألوفة مثل ماركون وشخصيات جديدة.',
@@ -2128,7 +2128,7 @@
             "Lisa Regan",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/breath.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/breath.mp3",
 
 
             'تتفوق رواية ريجان للقصص في تقديم رؤية شاملة للشخصيات وتطوراتها، مما يوفر منظورًا سرديًا غنيًا.',
@@ -2153,7 +2153,7 @@
             "Brad Thor",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/deadFall.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/deadFall.mp3",
 
 
             "في سقوط براد ثور القاتل، يندفع القراء إلى عالم من المؤامرات عالية المخاطر والمؤامرات القاتلة، في أعقاب عميل مكافحة الإرهاب سكوت هارفاث في مهمة للكشف عن مؤامرة عالمية شريرة.",
@@ -2178,7 +2178,7 @@
             "JD Kirk",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/theAges.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/theAges.mp3",
 
 
             'في كيركس وان للأعمار، الجزء السادس عشر من سلسلة جاك لوجان، اهتزت قرية نائية في المرتفعات بسبب أول جريمة قتل لامرأة مسنة.',
@@ -2203,7 +2203,7 @@
             "Christy Barritt",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/lastTarget.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/lastTarget.mp3",
 
 
             "في كريستي باريت الهدف الأخير، يتكشف تشويق رومانسي سريع الوتيرة مع شخصيات مقنعة وخطر لا هوادة فيه من الطلقة الأولى التي تم إطلاقها في الصفحة الأولى.",
@@ -2228,7 +2228,7 @@
             "Ward Larsen",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/deepFake.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/deepFake.mp3",
 
 
             "في تزييف عميق لارسن، تتكشف القصة الجذابة مع شعور بالإلحاح عندما تتعمق سارة ريدجواي، زوجة عضو الكونجرس، في الحقيقة المقلقة وراء سلوك زوجها الغامض بعد هجوم إرهابي.",
@@ -2253,7 +2253,7 @@
             "Caroline Kepnes",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/you.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/you.mp3",
 
 
             'رواية كارولين كيبنيس المثيرة "أنت" تتبع الحكاية الجذابة التي يرويها جو غولدبرغ، وهو موظف في محل لبيع الكتب يقود القصة تركيزه على الكاتب الطموح بيك.',
@@ -2278,7 +2278,7 @@
             "Logan Ryles",
 
 
-            "https://klipsumthrsite.netlify.app/media/thrMedia/brink.mp3",
+            "https://trhsite.onrender.com/media/thrMedia/brink.mp3",
 
 
             "في رايل حافة الحرب، تتكشف قصة الإثارة والحركة مع مزيج من الإثارة وأوجه القصور، حيث تمزج التسلسلات السريعة مع عدم الدقة في تفاصيل المعدات العسكرية. ",
@@ -2320,7 +2320,7 @@
             "Philip Pullman",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/goldCompass.mp3",
+            "https://advsite.onrender.com/media/advMedia/goldCompass.mp3",
 
 
             "في هذه الثلاثية، يقدم فيليب بولمان للقراء عالمًا موازيًا تظهر فيه النفوس كشياطين، أي رفاق حيوانات خارجيين مرتبطين بمشاعر الأفراد وحواسهم.",
@@ -2345,7 +2345,7 @@
             "Shirtaloon",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/whoFights.mp3",
+            "https://advsite.onrender.com/media/advMedia/whoFights.mp3",
 
 
             "تغمر هذه السلسلة الجذابة القراء في مزيج فريد من لعبة لعب الأدوار الأدبية والخيال التقدمي، حيث يجد جيسون نفسه في عالم سحري مليء بالتحديات والألغاز.",
@@ -2370,7 +2370,7 @@
             "Karen Inglis",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/lake.mp3",
+            "https://advsite.onrender.com/media/advMedia/lake.mp3",
 
 
             "لهذا السبب لديك القليل من الأرجل في قصة كارين إنجليس الساحرة، تشرع ستيلا وتوم في مغامرة السفر عبر الزمن عبر كهف مخفي، ويكشفان لغزًا عمره قرن من الزمان ويساعدان في تصحيح ظلم الماضي.",
@@ -2395,7 +2395,7 @@
             "Yann Martel",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/pi.mp3",
+            "https://advsite.onrender.com/media/advMedia/pi.mp3",
 
 
             "في حياة باي للكاتب يان مارتل، يروي بطل الرواية الشاب باي رحلته المروعة عبر المحيط الهادئ بعد غرق السفينة، برفقة نمر يدعى ريتشارد باركر.",
@@ -2420,7 +2420,7 @@
             "Neil Gaiman",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/theOcean.mp3",
+            "https://advsite.onrender.com/media/advMedia/theOcean.mp3",
 
 
             "تتبع رواية نيل جيمان الآسرة رجلاً يعود لزيارة منزل طفولته بعد جنازة، مما يقوده إلى مزرعة هيمبستوك الغامضة والمقيمات الأقوياء فيها.",
@@ -2445,7 +2445,7 @@
             "Kelley Armstrong",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/sea.mp3",
+            "https://advsite.onrender.com/media/advMedia/sea.mp3",
 
 
             "في بحر الظلال، يجب على آشين وموريا، الأختان التوأم اللتان تعملان كحارس وباحث في إيدجوود، حماية أرضهما من الأرواح الانتقامية في غابة الموتى.",
@@ -2470,7 +2470,7 @@
             "Adrienne Young",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/fable.mp3",
+            "https://advsite.onrender.com/media/advMedia/fable.mp3",
 
 
             "في عالم خيالي لا يرحم، تتمحور الحكاية حول العثور على عائلة وسط خلفية من تحديات البقاء على قيد الحياة.",
@@ -2495,7 +2495,7 @@
             "Kelly Barnhill",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/theMoon.mp3",
+            "https://advsite.onrender.com/media/advMedia/theMoon.mp3",
 
 
             "في الفتاة التي شربت القمر، تتكشف قصة العائلة والنمو والسحر. يتطور الكتاب من قصة بسيطة عن سحر لونا إلى قصة معقدة تتشابك مع خيوط مؤامرة مختلفة.",
@@ -2520,7 +2520,7 @@
             "Patricia Briggs",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/huntingGround.mp3",
+            "https://advsite.onrender.com/media/advMedia/huntingGround.mp3",
 
 
             "في أرض الصيد، تضيف الصراعات الشخصية بين آنا وتشارلز طبقات إلى ديناميكيات علاقتهما، حيث يتصارع تشارلز مع مشاعر النقص وتتغلب آنا على مخاوفها.",
@@ -2545,7 +2545,7 @@
             "C.A. Fletcher",
 
 
-            "https://klipsumadvsite.netlify.app/media/advMedia/hisDog.mp3",
+            "https://advsite.onrender.com/media/advMedia/hisDog.mp3",
 
 
             "في هذه الحكاية الآسرة، يمزج رواية غريز المقنعة بين السذاجة والحكمة، ويرسم صورة حية للحياة بعد نهاية العالم.",
@@ -2587,7 +2587,7 @@
             "John Cleese",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/creativity.mp3",
+            "https://comsite.onrender.com/media/comMedia/creativity.mp3",
 
 
             "في الإبداع، يقدم جون كليز لمحة آسرة عن العملية الإبداعية وراء الأعمال الشهيرة مثل مونتي بايثون وفولتي تاورز.",
@@ -2612,7 +2612,7 @@
             "Seth Rogan",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/yearBook.mp3",
+            "https://comsite.onrender.com/media/comMedia/yearBook.mp3",
 
 
             "يبرز الكتاب السنوي لسيث روجن باعتباره قراءة ممتعة وجذابة، ومليئة بالقصص والمقالات الحقيقية التي تمتد من طفولته إلى حياته المهنية.",
@@ -2637,7 +2637,7 @@
             "Peter Holmes",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/comedy.mp3",
+            "https://comsite.onrender.com/media/comMedia/comedy.mp3",
 
 
             "يروي بيت هولمز نشأته كمسيحي إنجيلي، والتي تأثرت بقواعد ومعتقدات أخلاقية صارمة.",
@@ -2662,7 +2662,7 @@
             "Norm Macdonald",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/trueStory.mp3",
+            "https://comsite.onrender.com/media/comMedia/trueStory.mp3",
 
 
             "نورم ماكدونالدز مبني على قصة حقيقية يتشابك مع قصة صعود الممثل الكوميدي الكندي الشهير إلى الشهرة في ساترداي نايت لايف مع قصة خيالية ملتوية حول كاتب شبح يقوم بصياغة مذكرات الممثل الكوميدي.",
@@ -2687,7 +2687,7 @@
             "David Sedaris",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/happy.mp3",
+            "https://comsite.onrender.com/media/comMedia/happy.mp3",
 
 
             "يتعمق ديفيد سيداريس في ماضيه المضطرب وديناميكيات عائلته الغريبة في هذا الكتاب، مما يعكس تأثير تربيته على منهجه الكوميدي.",
@@ -2712,7 +2712,7 @@
             "Colin Jost",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/punchable.mp3",
+            "https://comsite.onrender.com/media/comMedia/punchable.mp3",
 
 
             "تقدم مذكرات كولن جوست نظرة فكاهية وصريحة لرحلة حياته، من نشأته في جزيرة ستاتن إلى جامعة هارفارد وما بعدها.",
@@ -2737,7 +2737,7 @@
             "Jerry Seinfeld",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/anything.mp3",
+            "https://comsite.onrender.com/media/comMedia/anything.mp3",
 
 
             "هل هذا أي شيء؟ يقدم استكشافًا شاملاً للحظات الحياة وتأملاتها، من الطفولة إلى الأبوة، والتي تم التقاطها على مدار عقود من المواد الكوميدية المصممة بدقة.",
@@ -2762,7 +2762,7 @@
             "Judy Carter",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/new.mp3",
+            "https://comsite.onrender.com/media/comMedia/new.mp3",
 
 
             "يقدم الكتاب المقدس الكوميدي الجديد من تأليف جودي كارتر دليلاً شاملاً للكوميديين الطموحين، ويضم تعليمات خطوة بخطوة للكتابة والأداء وإطلاق مهنة كوميدية ناجحة.",
@@ -2787,7 +2787,7 @@
             "Andy Gardner",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/howFunny.mp3",
+            "https://comsite.onrender.com/media/comMedia/howFunny.mp3",
 
 
             "كيف تكون مضحكا هو دليل أساسي لأولئك الذين يسعون إلى تعزيز مهاراتهم الكوميدية ويصبحوا حياة الحفلة.",
@@ -2812,7 +2812,7 @@
             "Bob Odenkirk",
 
 
-            "https://klipsumcomsite.netlify.app/media/comMedia/comedyX3.mp3",
+            "https://comsite.onrender.com/media/comMedia/comedyX3.mp3",
 
 
             "كوميديا ​​كوميديا ​​دراما تتعمق في الحياة المهنية والتطور الكوميدي للممثل بوب أودينكيرك، المعروف بأدواره في البرامج التلفزيونية مثل الرجاء الاتصال بسول والسيد. يعرض.",
@@ -5731,13 +5731,13 @@ function completedHandlingBox (completedText) {
 
                                                     pauseButtonOtherIconOne.style = `
                                                     
-                                                        background:#778d83;
+                                                        background:#c7b09a;
 
                                                     `
 
                                                     pauseButtonOtherIconTwo.style = `
                                                     
-                                                        background:#778d83;
+                                                        background:#c7b09a;
 
                                                     `
 
@@ -5764,7 +5764,7 @@ function completedHandlingBox (completedText) {
                                                 stopButtonOtherIconOne.style = `
                                                 
                                                     opacity:1;
-                                                    background:#778d83;
+                                                    background:#c7b09a;
                                                 
                                                 `
 
@@ -6004,7 +6004,7 @@ function completedHandlingBox (completedText) {
                             downCircButtonSelectedIconOne.style = `
                             
                                 opacity:1;
-                                background:#778d83;
+                                background:#c7b09a;
                             
                             `
 
@@ -6012,7 +6012,7 @@ function completedHandlingBox (completedText) {
                             downCircButtonSelectedIconTwo.style = `
                             
                                 opacity:1;
-                                background:#778d83;
+                                background:#c7b09a;
                             
                             `
 
@@ -6020,7 +6020,7 @@ function completedHandlingBox (completedText) {
                             downCircButtonSelectedIconThree.style = `
                             
                                 opacity:1;
-                                background:#778d83;
+                                background:#c7b09a;
                             
                             `
 
@@ -6028,7 +6028,7 @@ function completedHandlingBox (completedText) {
                             downCircButtonSelectedIconFour.style = `
                             
                                 opacity:1;
-                                background:#778d83;
+                                background:#c7b09a;
                             
                             `
 
@@ -6300,13 +6300,13 @@ function completedHandlingBox (completedText) {
 
                                                     pauseButtonOtherIconOne.style = `
                                                     
-                                                        background:#778d83;
+                                                        background:#c7b09a;
 
                                                     `
 
                                                     pauseButtonOtherIconTwo.style = `
                                                     
-                                                        background:#778d83;
+                                                        background:#c7b09a;
 
                                                     `
 
@@ -6333,7 +6333,7 @@ function completedHandlingBox (completedText) {
                                                 stopButtonOtherIconOne.style = `
                                                 
                                                     opacity:1;
-                                                    background:#778d83;
+                                                    background:#c7b09a;
                                                 
                                                 `
 
@@ -6501,13 +6501,13 @@ function completedHandlingBox (completedText) {
 
                             pauseButtonSelectedIconOne.style = `
                             
-                                background:#778d83;
+                                background:#c7b09a;
 
                             `
 
                             pauseButtonSelectedIconTwo.style = `
                             
-                                background:#778d83;
+                                background:#c7b09a;
 
                             `
 
@@ -6869,13 +6869,13 @@ function completedHandlingBox (completedText) {
 
                                                     pauseButtonOtherIconOne.style = `
                                                     
-                                                        background:#778d83;
+                                                        background:#c7b09a;
 
                                                     `
 
                                                     pauseButtonOtherIconTwo.style = `
                                                     
-                                                        background:#778d83;
+                                                        background:#c7b09a;
 
                                                     `
 
@@ -6902,7 +6902,7 @@ function completedHandlingBox (completedText) {
                                                 stopButtonOtherIconOne.style = `
                                                 
                                                     opacity:1;
-                                                    background:#778d83;
+                                                    background:#c7b09a;
                                                 
                                                 `
 
@@ -7070,13 +7070,13 @@ function completedHandlingBox (completedText) {
 
                             pauseButtonSelectedIconOne.style = `
                             
-                                background:#778d83;
+                                background:#c7b09a;
 
                             `
 
                             pauseButtonSelectedIconTwo.style = `
                             
-                                background:#778d83;
+                                background:#c7b09a;
 
                             `
 
@@ -7109,7 +7109,7 @@ function completedHandlingBox (completedText) {
                             stopButtonSelectedIconOne.style = `
                             
                                 opacity:1;
-                                background:#778d83;
+                                background:#c7b09a;
                             
                             `
 
@@ -7331,25 +7331,25 @@ function completedHandlingBox (completedText) {
 
                     downCircButtonSelectedIconOne.style = `
                     
-                        background:#778d83;
+                        background:#c7b09a;
 
                     `
 
                     downCircButtonSelectedIconTwo.style = `
                     
-                        background:#778d83;
+                        background:#c7b09a;
 
                     `
 
                     downCircButtonSelectedIconThree.style = `
                     
-                        background:#778d83;
+                        background:#c7b09a;
 
                     `
 
                     downCircButtonSelectedIconFour.style = `
                     
-                        background:#778d83;
+                        background:#c7b09a;
 
                     `
 
@@ -8418,13 +8418,13 @@ function completedHandlingBox (completedText) {
 
                             pauseButtonSelectedIconOne.style = `
                             
-                                background:#778d83;
+                                background:#c7b09a;
 
                             `
 
                             pauseButtonSelectedIconTwo.style = `
                             
-                                background:#778d83;
+                                background:#c7b09a;
 
                             `
 
@@ -8454,7 +8454,7 @@ function completedHandlingBox (completedText) {
 
                             stopButtonSelectedIconOne.style = `
                             
-                                background:#778d83;
+                                background:#c7b09a;
 
                             `
 
