@@ -8031,7 +8031,7 @@
                                                                             top:12px;
                                                                             position:relative;
                                                                             border-radius:10px;
-                                                                            background:#80998e;
+                                                                            background:#575757;
                                                                             transition:all 600ms ease;
                                                                             -o-transition:all 600ms ease;
                                                                             -ms-transition:all 600ms ease;
@@ -8054,7 +8054,7 @@
                                                                                     top:8px;
                                                                                     position:relative;
                                                                                     border-radius:10px;
-                                                                                    background:#80998e;
+                                                                                    background:#575757;
                                                                                     transition:all 600ms ease;
                                                                                     -o-transition:all 600ms ease;
                                                                                     -ms-transition:all 600ms ease;
@@ -8219,7 +8219,7 @@
                                                                         margin-top:0px;
                                                                         border-radius:10px;
                                                                         display:inline-table;
-                                                                        background:#80998e;
+                                                                        background:#575757;
                                                                         border:0px solid rgba(0,0,0,0.0);
                                                                         box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
                                                                         transition:all 400ms ease;
@@ -8245,7 +8245,7 @@
                                                                                 margin-top:-5px;
                                                                                 border-radius:10px;
                                                                                 display:inline-table;
-                                                                                background:#80998e;
+                                                                                background:#575757;
                                                                                 border:0px solid rgba(0,0,0,0.0);
                                                                                 box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
                                                                                 transition:all 400ms ease;
@@ -8347,7 +8347,7 @@
 
                                     .sideMenuSuggestionsSideHeaderTwo{
 
-                                        font-size:32px;
+                                        font-size:30px;
                                         font-weight:500;
                                         text-align:left;
                                         margin-top:-5px;

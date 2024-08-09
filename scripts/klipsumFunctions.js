@@ -3025,7 +3025,7 @@
 
                                     "هل هناك أي شيء آخر تريد قوله؟",
                                     "...أخبرنا ماذا يدور في ذهنك أيضًا",
-                                    "إرسال التوصية"
+                                    "يوصي"
 
 
                         ],
@@ -3106,7 +3106,7 @@
 
                                     "Anything else you wanna say?",
                                     "tell us what else is on your mind...",
-                                    "send recommendation"
+                                    "recommend"
 
 
                         ],
