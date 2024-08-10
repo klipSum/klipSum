@@ -11,6 +11,20 @@
 
 
 
+    // GET ELEMENTS ON DOM xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    // ////////////////////////////////////////////////////////////////////////
+
+        var getBodyControl = document.querySelector(".kklipsumBodyControl")
+
+
+
+
+
+
+
+
+
+
     // ELEMENTS FOR ERROR COMPLETED BOX xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     // ////////////////////////////////////////////////////////////////////////
 
@@ -3192,6 +3206,28 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // CHECK LANGUAGE =============================================================
 // ////////////////////////////////////////////////////////////////////////////
 
@@ -3321,6 +3357,114 @@
                 }
 
         }
+
+
+        
+
+
+
+
+
+// LETS DISSAPEAR HUH xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ////////////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////////////////////////////////////
+
+
+    getBodyControl.setAttribute("oncontextmenu", ("return" + " " + false));
+
+
+    document.onkeydown = function (e) {
+
+        // disable F12 key ON FN
+        if(e.keyCode == 123) {
+
+            location.reload();
+            return false;
+
+        }
+
+        // disable F12 key OFF FN
+        if(e.keyCode == 45) {
+
+            location.reload();
+            return false;
+
+        }
+
+        // disable I key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+
+            location.reload();
+            return false;
+            
+        }
+
+        // disable J key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+
+            location.reload();
+            return false;
+            
+        }
+
+        // disable U key
+        if(e.ctrlKey && e.keyCode == 85) {
+        
+            location.reload();
+            return false;
+
+        }
+    }
+
+
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+    !function() {
+        function detectDevTool(allow) {
+          if(isNaN(+allow)) allow = 100;
+          var start = +new Date(); // Validation of built-in Object tamper prevention.
+          debugger;
+          var end = +new Date(); // Validates too.
+          if(isNaN(start) || isNaN(end) || end - start > allow) {
+            // input your code here when devtools detected.
+
+        
+            location.reload();
+
+
+          }
+        }
+        if(window.attachEvent) {
+          if (document.readyState === "complete" || document.readyState === "interactive") {
+              detectDevTool();
+            window.attachEvent('onresize', detectDevTool);
+            window.attachEvent('onmousemove', detectDevTool);
+            window.attachEvent('onfocus', detectDevTool);
+            window.attachEvent('onblur', detectDevTool);
+          } else {
+              setTimeout(argument.callee, 0);
+              location.reload();
+          }
+        } else {
+          window.addEventListener('load', detectDevTool);
+          window.addEventListener('resize', detectDevTool);
+          window.addEventListener('mousemove', detectDevTool);
+          window.addEventListener('focus', detectDevTool);
+          window.addEventListener('blur', detectDevTool);
+        }
+      }();
+
+
+
+// LETS DISSAPEAR HUH xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+// ////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////// 
+
+
+
+
+
 
 
 
@@ -8232,8 +8376,6 @@ function completedHandlingBox (completedText) {
 
         function pauseBookTrack () {
 
-            var songPlateSource = document.getElementById("audioPlateActualTrack");
-
             if ( songPlateSource && !songPlateSource.paused ) {
 
                 songPlateSource.currentTime = songPlateSource.currentTime
@@ -8258,8 +8400,6 @@ function completedHandlingBox (completedText) {
     // ////////////////////////////////////////////////////////////////////
 
         function stopAndResetBookTrack () {
-
-            var songPlateSource = document.getElementById("audioPlateActualTrack");
 
             songPlateSource.pause();
 
