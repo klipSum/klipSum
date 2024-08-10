@@ -3444,7 +3444,6 @@
             window.attachEvent('onblur', detectDevTool);
           } else {
               setTimeout(argument.callee, 0);
-              location.reload();
           }
         } else {
           window.addEventListener('load', detectDevTool);
