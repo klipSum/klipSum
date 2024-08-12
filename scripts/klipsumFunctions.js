@@ -2906,7 +2906,8 @@
             "بلغ الحد.",
             "حقل اسم الكتاب فارغ.",
             "حقل توصية كتاب فارغ.",
-            "حقل التعليقات فارغ."
+            "حقل التعليقات فارغ.",
+            "املأ حقل التوصية أولاً للإضافة."
 
         ],
         [
@@ -2915,7 +2916,8 @@
             "Limit Reached.",
             "Empty book name Field.",
             "Empty book recommendation Field.",
-            "Empty comments Field."
+            "Empty comments Field.",
+            "Fill in recommendation field first to add."
 
         ]
 
@@ -3370,89 +3372,89 @@
 // ////////////////////////////////////////////////////////////////////////////
 
 
-    // getBodyControl.setAttribute("oncontextmenu", ("return" + " " + false));
+    getBodyControl.setAttribute("oncontextmenu", ("return" + " " + false));
 
 
-    // document.onkeydown = function (e) {
+    document.onkeydown = function (e) {
 
-    //     // disable F12 key ON FN
-    //     if(e.keyCode == 123) {
+        // disable F12 key ON FN
+        if(e.keyCode == 123) {
 
-    //         location.reload();
-    //         return false;
+            location.reload();
+            return false;
 
-    //     }
+        }
 
-    //     // disable F12 key OFF FN
-    //     if(e.keyCode == 45) {
+        // disable F12 key OFF FN
+        if(e.keyCode == 45) {
 
-    //         location.reload();
-    //         return false;
+            location.reload();
+            return false;
 
-    //     }
+        }
 
-    //     // disable I key
-    //     if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+        // disable I key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
 
-    //         location.reload();
-    //         return false;
+            location.reload();
+            return false;
             
-    //     }
+        }
 
-    //     // disable J key
-    //     if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        // disable J key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
 
-    //         location.reload();
-    //         return false;
+            location.reload();
+            return false;
             
-    //     }
+        }
 
-    //     // disable U key
-    //     if(e.ctrlKey && e.keyCode == 85) {
+        // disable U key
+        if(e.ctrlKey && e.keyCode == 85) {
         
-    //         location.reload();
-    //         return false;
+            location.reload();
+            return false;
 
-    //     }
-    // }
-
-
-    // document.addEventListener('contextmenu', event => event.preventDefault());
+        }
+    }
 
 
-    // !function() {
-    //     function detectDevTool(allow) {
-    //       if(isNaN(+allow)) allow = 100;
-    //       var start = +new Date(); // Validation of built-in Object tamper prevention.
-    //       debugger;
-    //       var end = +new Date(); // Validates too.
-    //       if(isNaN(start) || isNaN(end) || end - start > allow) {
-    //         // input your code here when devtools detected.
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+    !function() {
+        function detectDevTool(allow) {
+          if(isNaN(+allow)) allow = 100;
+          var start = +new Date(); // Validation of built-in Object tamper prevention.
+          debugger;
+          var end = +new Date(); // Validates too.
+          if(isNaN(start) || isNaN(end) || end - start > allow) {
+            // input your code here when devtools detected.
 
         
-    //         location.reload();
+            location.reload();
 
 
-    //       }
-    //     }
-    //     if(window.attachEvent) {
-    //       if (document.readyState === "complete" || document.readyState === "interactive") {
-    //           detectDevTool();
-    //         window.attachEvent('onresize', detectDevTool);
-    //         window.attachEvent('onmousemove', detectDevTool);
-    //         window.attachEvent('onfocus', detectDevTool);
-    //         window.attachEvent('onblur', detectDevTool);
-    //       } else {
-    //           setTimeout(argument.callee, 0);
-    //       }
-    //     } else {
-    //       window.addEventListener('load', detectDevTool);
-    //       window.addEventListener('resize', detectDevTool);
-    //       window.addEventListener('mousemove', detectDevTool);
-    //       window.addEventListener('focus', detectDevTool);
-    //       window.addEventListener('blur', detectDevTool);
-    //     }
-    //   }();
+          }
+        }
+        if(window.attachEvent) {
+          if (document.readyState === "complete" || document.readyState === "interactive") {
+              detectDevTool();
+            window.attachEvent('onresize', detectDevTool);
+            window.attachEvent('onmousemove', detectDevTool);
+            window.attachEvent('onfocus', detectDevTool);
+            window.attachEvent('onblur', detectDevTool);
+          } else {
+              setTimeout(argument.callee, 0);
+          }
+        } else {
+          window.addEventListener('load', detectDevTool);
+          window.addEventListener('resize', detectDevTool);
+          window.addEventListener('mousemove', detectDevTool);
+          window.addEventListener('focus', detectDevTool);
+          window.addEventListener('blur', detectDevTool);
+        }
+      }();
 
 
 
@@ -5239,7 +5241,9 @@ function completedHandlingBox (completedText) {
                                                 
                                                 ) {
 
-                                                    console.log("Not happy...")
+                                                    errorMessage = errorMessageBox[1][5]
+            
+                                                    errorHandlingBox(errorMessage);
 
                                                 } else {
 
@@ -5464,7 +5468,9 @@ function completedHandlingBox (completedText) {
                                                 
                                                 ) {
 
-                                                    console.log("Not happy...")
+                                                    errorMessage = errorMessageBox[1][5]
+            
+                                                    errorHandlingBox(errorMessage);
 
                                                 } else {
 
