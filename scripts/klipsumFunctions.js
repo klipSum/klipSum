@@ -145,7 +145,7 @@
 
                 var bookNameFieldsContainer = document.querySelector(".bookNameInputsContainer")
 
-                var bookNameFieldOne = document.querySelector(".bookNameOne")
+                var bookNameFieldOne = document.querySelector(".extraBookNameOneInputActual")
 
             // ADD BOOK NAME xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             // ////////////////////////////////////////////////////////////////
@@ -3370,89 +3370,89 @@
 // ////////////////////////////////////////////////////////////////////////////
 
 
-    getBodyControl.setAttribute("oncontextmenu", ("return" + " " + false));
+    // getBodyControl.setAttribute("oncontextmenu", ("return" + " " + false));
 
 
-    document.onkeydown = function (e) {
+    // document.onkeydown = function (e) {
 
-        // disable F12 key ON FN
-        if(e.keyCode == 123) {
+    //     // disable F12 key ON FN
+    //     if(e.keyCode == 123) {
 
-            location.reload();
-            return false;
+    //         location.reload();
+    //         return false;
 
-        }
+    //     }
 
-        // disable F12 key OFF FN
-        if(e.keyCode == 45) {
+    //     // disable F12 key OFF FN
+    //     if(e.keyCode == 45) {
 
-            location.reload();
-            return false;
+    //         location.reload();
+    //         return false;
 
-        }
+    //     }
 
-        // disable I key
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+    //     // disable I key
+    //     if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
 
-            location.reload();
-            return false;
+    //         location.reload();
+    //         return false;
             
-        }
+    //     }
 
-        // disable J key
-        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+    //     // disable J key
+    //     if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
 
-            location.reload();
-            return false;
+    //         location.reload();
+    //         return false;
             
-        }
+    //     }
 
-        // disable U key
-        if(e.ctrlKey && e.keyCode == 85) {
+    //     // disable U key
+    //     if(e.ctrlKey && e.keyCode == 85) {
         
-            location.reload();
-            return false;
+    //         location.reload();
+    //         return false;
 
-        }
-    }
-
-
-    document.addEventListener('contextmenu', event => event.preventDefault());
+    //     }
+    // }
 
 
-    !function() {
-        function detectDevTool(allow) {
-          if(isNaN(+allow)) allow = 100;
-          var start = +new Date(); // Validation of built-in Object tamper prevention.
-          debugger;
-          var end = +new Date(); // Validates too.
-          if(isNaN(start) || isNaN(end) || end - start > allow) {
-            // input your code here when devtools detected.
+    // document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+    // !function() {
+    //     function detectDevTool(allow) {
+    //       if(isNaN(+allow)) allow = 100;
+    //       var start = +new Date(); // Validation of built-in Object tamper prevention.
+    //       debugger;
+    //       var end = +new Date(); // Validates too.
+    //       if(isNaN(start) || isNaN(end) || end - start > allow) {
+    //         // input your code here when devtools detected.
 
         
-            location.reload();
+    //         location.reload();
 
 
-          }
-        }
-        if(window.attachEvent) {
-          if (document.readyState === "complete" || document.readyState === "interactive") {
-              detectDevTool();
-            window.attachEvent('onresize', detectDevTool);
-            window.attachEvent('onmousemove', detectDevTool);
-            window.attachEvent('onfocus', detectDevTool);
-            window.attachEvent('onblur', detectDevTool);
-          } else {
-              setTimeout(argument.callee, 0);
-          }
-        } else {
-          window.addEventListener('load', detectDevTool);
-          window.addEventListener('resize', detectDevTool);
-          window.addEventListener('mousemove', detectDevTool);
-          window.addEventListener('focus', detectDevTool);
-          window.addEventListener('blur', detectDevTool);
-        }
-      }();
+    //       }
+    //     }
+    //     if(window.attachEvent) {
+    //       if (document.readyState === "complete" || document.readyState === "interactive") {
+    //           detectDevTool();
+    //         window.attachEvent('onresize', detectDevTool);
+    //         window.attachEvent('onmousemove', detectDevTool);
+    //         window.attachEvent('onfocus', detectDevTool);
+    //         window.attachEvent('onblur', detectDevTool);
+    //       } else {
+    //           setTimeout(argument.callee, 0);
+    //       }
+    //     } else {
+    //       window.addEventListener('load', detectDevTool);
+    //       window.addEventListener('resize', detectDevTool);
+    //       window.addEventListener('mousemove', detectDevTool);
+    //       window.addEventListener('focus', detectDevTool);
+    //       window.addEventListener('blur', detectDevTool);
+    //     }
+    //   }();
 
 
 
@@ -3659,11 +3659,32 @@
 
                         {  
 
-                            var makeClassName = `bookName${classNumberMake[counter]}`
+                            var makeClassName = `extraBookName${classNumberMake[counter]}InputActual`
+
+                            console.log("WHATS THIS: " + makeClassName)
 
                             var getBookNameInput = document.querySelector(`.${makeClassName}`)
 
-                            getBookNamesCompiled += `Book recommendation ${classNumberMake[counter]}: ${getBookNameInput.value}, `
+                            if ( 
+                                
+                                    getBookNameInput.value == undefined || 
+                                    getBookNameInput.value == ""
+
+                                ) 
+                                
+                            {
+
+                                console.log("NUN TO REPORT ON: " + counter)
+
+                            } else {
+
+                                getBookNamesCompiled += `Book recommendation ${(classNumberMake[counter]).toLowerCase()}: ${getBookNameInput.value}, `
+
+                                console.log("BEANS: " + getBookNameInput.value)
+
+                            }
+
+                            
 
                         }
 
@@ -3671,6 +3692,8 @@
                             // ///////////////////////////////////////////
 
                                 getBookNamesCompiled += `Comment: ${getComments}`
+
+                                console.log("LOG TEST ONE: ")
 
 
         let params = {
@@ -3689,7 +3712,7 @@
             // SEND EMAIL USING EMAIL JS PARAMS //////////////////////////////
             // ///////////////////////////////////////////////////////////////
 
-                emailjs.send("service_k266y6h","template_2fvxlj6",params).then(console.log("Fire started..."))
+                emailjs.send("service_k266y6h","template_2fvxlj6",params).then(console.log(""))
 
     }
     
@@ -5188,131 +5211,191 @@ function completedHandlingBox (completedText) {
                                     // CHECK IF NUMBER OF FIELDS DOE NOT EXCEED 5 -----------------
                                     // ////////////////////////////////////////////////////////////
 
-                                        if ( getNumberOfDivs != 5 ) {
+                                        if ( getNumberOfDivs != 3 ) {
 
 
-                                            // CREATE MAIN INPUT SURROUNDING CONTAINER ------------
+
+                                            // COUNT INPUTS AND SEE IF THEY ARE EMPTY AND MOVE FROM THERE
                                             // ////////////////////////////////////////////////////
-                                
-                                                var newInputField = document.createElement("div")
-                                                newInputField.className = `extraBookName${numberOfDivsForClassMaker}FieldContainer`
 
-                                                    // STYLE MAIN CONTAINER ======================
-                                                    // ///////////////////////////////////////////
+                                                var getDivsContainer = document.querySelector(".bookNameInputsContainer")
 
-                                                        newInputField.style = `
-                                                        
-                                                            width:100%;
-                                                            margin-top:20px;
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
+                                                var getNumberOfInputs = getDivsContainer.children.length
 
-                                                        `
+                                                var makeNumberReductionForClass = (getNumberOfInputs - 1)
 
-                                                    // APPEND FIELD SURROUNDER INTO MAIN FIELD CONTAINER
-                                                    // ////////////////////////////////////////////
+                                                var makeInputClassName = `extraBookName${classNumberMiddleCounter[makeNumberReductionForClass]}InputActual`
 
-                                                        bookNameFieldsContainer.appendChild(newInputField)
+                                                var getLatestInput = document.querySelector(`.${makeInputClassName}`)
 
 
-
-
-
-
-
-
-
-
-                                            // CREATE INPUT BUFFER ZONE CONTAINER -----------------
+                                            // CHECK IF FIRST FIELD IS FILLED AND THEN CREATE NEW ONE IF EMPTY
                                             // ////////////////////////////////////////////////////
-                                
-                                                var newBufferField = document.createElement("div")
-                                                newBufferField.className = `extraBookName${numberOfDivsForClassMaker}BufferContainer`
 
-                                                    // STYLE BUFFER CONTAINER ====================
-                                                    // ///////////////////////////////////////////
+                                                if ( 
+                                                    
+                                                    getLatestInput.value == "" || 
+                                                    getLatestInput.value.length < 4
+                                                
+                                                ) {
 
-                                                        newBufferField.style = `
-                                                        
-                                                            width:100%;
-                                                            padding:10px 0px;
-                                                            border-radius:5px;
-                                                            background:#FFFFFF;
-                                                            box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
+                                                    console.log("Not happy...")
 
-                                                        `
-
-                                                    // APPEND FIELD BUFFER TO SURROUNDER BLOCK ====
-                                                    // ////////////////////////////////////////////
-
-                                                        newInputField.appendChild(newBufferField)
+                                                } else {
 
 
 
 
+                                                    // CREATE MAIN INPUT SURROUNDING CONTAINER ------------
+                                                    // ////////////////////////////////////////////////////
+                                        
+                                                        var newInputField = document.createElement("div")
+                                                        newInputField.className = `extraBookName${numberOfDivsForClassMaker}FieldContainer`
+
+                                                            // STYLE MAIN CONTAINER ======================
+                                                            // ///////////////////////////////////////////
+
+                                                                newInputField.style = `
+                                                                
+                                                                    width:100%;
+                                                                    margin-top:20px;
+                                                                    transition:all 600ms ease;
+                                                                    -o-transition:all 600ms ease;
+                                                                    -ms-transition:all 600ms ease;
+                                                                    -moz-transition:all 600ms ease;
+                                                                    -webkit-transition:all 600ms ease;
+
+                                                                `
+
+                                                            // APPEND FIELD SURROUNDER INTO MAIN FIELD CONTAINER
+                                                            // ////////////////////////////////////////////
+
+                                                                bookNameFieldsContainer.appendChild(newInputField)
 
 
+
+
+
+
+
+
+
+
+                                                    // CREATE INPUT BUFFER ZONE CONTAINER -----------------
+                                                    // ////////////////////////////////////////////////////
+                                        
+                                                        var newBufferField = document.createElement("div")
+                                                        newBufferField.className = `extraBookName${numberOfDivsForClassMaker}BufferContainer`
+
+                                                            // STYLE BUFFER CONTAINER ====================
+                                                            // ///////////////////////////////////////////
+
+                                                                newBufferField.style = `
+                                                                
+                                                                    width:100%;
+                                                                    padding:10px 0px;
+                                                                    border-radius:5px;
+                                                                    background:#FFFFFF;
+                                                                    box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
+                                                                    transition:all 600ms ease;
+                                                                    -o-transition:all 600ms ease;
+                                                                    -ms-transition:all 600ms ease;
+                                                                    -moz-transition:all 600ms ease;
+                                                                    -webkit-transition:all 600ms ease;
+
+                                                                `
+
+                                                            // APPEND FIELD BUFFER TO SURROUNDER BLOCK ====
+                                                            // ////////////////////////////////////////////
+
+                                                                newInputField.appendChild(newBufferField)
+
+
+
+
+
+
+
+
+                                                    
+
+
+                                                    // CREATE INPUT ELEMENT ACTUAL ------------------------
+                                                    // ////////////////////////////////////////////////////
+                                        
+                                                        var newInputActualField = document.createElement("input")
+                                                        newInputActualField.className = `extraBookName${numberOfDivsForClassMaker}InputActual`
+
+                                                            // STYLE INPUT ELEMENT ACTUAL =================
+                                                            // ///////////////////////////////////////////
+
+                                                            newInputActualField.style = `
+                                                                
+                                                                    width:90%;
+                                                                    outline:none;
+                                                                    margin:0px auto;
+                                                                    text-align:left;
+                                                                    background:rgba(0, 0, 0, 0.0);
+                                                                    font-family:'Oxygen', sans-serif;
+                                                                    border:0px solid rgba(0, 0, 0, 0.0);
+                                                                    transition:all 600ms ease;
+                                                                    -o-transition:all 600ms ease;
+                                                                    -ms-transition:all 600ms ease;
+                                                                    -moz-transition:all 600ms ease;
+                                                                    -webkit-transition:all 600ms ease;
+
+                                                                `
+
+                                                            // ADD ATTRIBUTES TO INPUT ELEMENT ACTUAL ====
+                                                            // ///////////////////////////////////////////
+
+                                                                newInputActualField.setAttribute("type","text")
+                                                                newInputActualField.setAttribute("maxlength","30")
+                                                                newInputActualField.setAttribute("id",`extraBookName${numberOfDivsForClassMaker}InputActual`)
+                                                                newInputActualField.setAttribute("name",`extraBookName${numberOfDivsForClassMaker}InputActual`)
+                                                                newInputActualField.setAttribute("placeholder","enter book name")
+
+                                                            // APPEND INPUT ELEMENT ACTUAL TO FIELD BUFFER BLOCK
+                                                            // ////////////////////////////////////////////
+
+                                                                newBufferField.appendChild(newInputActualField)
+
+                                                            // RESET TEXT ALIGNER .........................
+                                                            // ////////////////////////////////////////////
+
+                                                            textAligner = ""
+
+
+
+
+                                                }
 
 
                                             
 
 
-                                            // CREATE INPUT ELEMENT ACTUAL ------------------------
-                                            // ////////////////////////////////////////////////////
-                                
-                                                var newInputActualField = document.createElement("input")
-                                                newInputActualField.className = `extraBookName${numberOfDivsForClassMaker}InputActual`
-
-                                                    // STYLE INPUT ELEMENT ACTUAL =================
-                                                    // ///////////////////////////////////////////
-
-                                                    newInputActualField.style = `
-                                                        
-                                                            width:90%;
-                                                            outline:none;
-                                                            margin:0px auto;
-                                                            text-align:left;
-                                                            background:rgba(0, 0, 0, 0.0);
-                                                            font-family:'Oxygen', sans-serif;
-                                                            border:0px solid rgba(0, 0, 0, 0.0);
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        `
-
-                                                    // ADD ATTRIBUTES TO INPUT ELEMENT ACTUAL ====
-                                                    // ///////////////////////////////////////////
-
-                                                        newInputActualField.setAttribute("type","text")
-                                                        newInputActualField.setAttribute("maxlength","30")
-                                                        newInputActualField.setAttribute("id",`extraBookName${numberOfDivsForClassMaker}InputActual`)
-                                                        newInputActualField.setAttribute("name",`extraBookName${numberOfDivsForClassMaker}InputActual`)
-                                                        newInputActualField.setAttribute("placeholder","enter book name")
-
-                                                    // APPEND INPUT ELEMENT ACTUAL TO FIELD BUFFER BLOCK
-                                                    // ////////////////////////////////////////////
-
-                                                        newBufferField.appendChild(newInputActualField)
-
-                                                    // RESET TEXT ALIGNER .........................
-                                                    // ////////////////////////////////////////////
-
-                                                    textAligner = ""
-
-
 
                                         } else {
+
+                                            var getTranslatorNumber = sessionStorage.getItem("translatorNumber")
+
+                                            if ( getTranslatorNumber == null || getTranslatorNumber == undefined ) {
+                                            
+
+                                                errorMessage = errorMessageBox[1][1]
+        
+                                                errorHandlingBox(errorMessage);
+
+
+                                            } else {
+                                            
+
+                                                errorMessage = errorMessageBox[getTranslatorNumber][1]
+        
+                                                errorHandlingBox(errorMessage); 
+
+
+                                            }
 
                                         }
 
@@ -5356,137 +5439,181 @@ function completedHandlingBox (completedText) {
                                         if ( getNumberOfDivs != 3 ) {
 
 
-                                            // CREATE MAIN INPUT SURROUNDING CONTAINER ------------
-                                            // ////////////////////////////////////////////////////
-                                
-                                                var newInputField = document.createElement("div")
-                                                newInputField.className = `extraBookName${numberOfDivsForClassMaker}FieldContainer`
 
-                                                    // STYLE MAIN CONTAINER ======================
-                                                    // ///////////////////////////////////////////
-
-                                                        newInputField.style = `
-                                                        
-                                                            width:100%;
-                                                            margin-top:20px;
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        `
-
-                                                    // APPEND FIELD SURROUNDER INTO MAIN FIELD CONTAINER
-                                                    // ////////////////////////////////////////////
-
-                                                        bookNameFieldsContainer.appendChild(newInputField)
-
-
-
-
-
-
-
-
-
-
-                                            // CREATE INPUT BUFFER ZONE CONTAINER -----------------
-                                            // ////////////////////////////////////////////////////
-                                
-                                                var newBufferField = document.createElement("div")
-                                                newBufferField.className = `extraBookName${numberOfDivsForClassMaker}BufferContainer`
-
-                                                    // STYLE BUFFER CONTAINER ====================
-                                                    // ///////////////////////////////////////////
-
-                                                        newBufferField.style = `
-                                                        
-                                                            width:100%;
-                                                            padding:10px 0px;
-                                                            border-radius:5px;
-                                                            background:#FFFFFF;
-                                                            box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        `
-
-                                                    // APPEND FIELD BUFFER TO SURROUNDER BLOCK ====
-                                                    // ////////////////////////////////////////////
-
-                                                        newInputField.appendChild(newBufferField)
-
-
-
-
-
-
-
-
-                                            // CHANGE DIRECTION FOR TEXT ALIGN --------------------
+                                            // COUNT INPUTS AND SEE IF THEY ARE EMPTY AND MOVE FROM THERE
                                             // ////////////////////////////////////////////////////
 
-                                                var textAligner = getPageDirectionForInputCreate
+                                                var getDivsContainer = document.querySelector(".bookNameInputsContainer")
 
-                                                if ( getPageDirectionForInputCreate == "left" ) {
+                                                var getNumberOfInputs = getDivsContainer.children.length
 
-                                                    textAligner = "right"
+                                                var makeNumberReductionForClass = (getNumberOfInputs - 1)
+
+                                                var makeInputClassName = `extraBookName${classNumberMiddleCounter[makeNumberReductionForClass]}InputActual`
+
+                                                var getLatestInput = document.querySelector(`.${makeInputClassName}`)
+
+
+                                            // CHECK IF FIRST FIELD IS FILLED AND THEN CREATE NEW ONE IF EMPTY
+                                            // ////////////////////////////////////////////////////
+
+                                                if ( 
+                                                    
+                                                    getLatestInput.value == "" || 
+                                                    getLatestInput.value.length < 4
+                                                
+                                                ) {
+
+                                                    console.log("Not happy...")
 
                                                 } else {
 
-                                                    textAligner = "left"
+
+
+
+
+
+                                                    // CREATE MAIN INPUT SURROUNDING CONTAINER ------------
+                                                    // ////////////////////////////////////////////////////
+                                        
+                                                        var newInputField = document.createElement("div")
+                                                        newInputField.className = `extraBookName${numberOfDivsForClassMaker}FieldContainer`
+
+                                                            // STYLE MAIN CONTAINER ======================
+                                                            // ///////////////////////////////////////////
+
+                                                                newInputField.style = `
+                                                                
+                                                                    width:100%;
+                                                                    margin-top:20px;
+                                                                    transition:all 600ms ease;
+                                                                    -o-transition:all 600ms ease;
+                                                                    -ms-transition:all 600ms ease;
+                                                                    -moz-transition:all 600ms ease;
+                                                                    -webkit-transition:all 600ms ease;
+
+                                                                `
+
+                                                            // APPEND FIELD SURROUNDER INTO MAIN FIELD CONTAINER
+                                                            // ////////////////////////////////////////////
+
+                                                                bookNameFieldsContainer.appendChild(newInputField)
+
+
+
+
+
+
+
+
+
+
+                                                    // CREATE INPUT BUFFER ZONE CONTAINER -----------------
+                                                    // ////////////////////////////////////////////////////
+                                        
+                                                        var newBufferField = document.createElement("div")
+                                                        newBufferField.className = `extraBookName${numberOfDivsForClassMaker}BufferContainer`
+
+                                                            // STYLE BUFFER CONTAINER ====================
+                                                            // ///////////////////////////////////////////
+
+                                                                newBufferField.style = `
+                                                                
+                                                                    width:100%;
+                                                                    padding:10px 0px;
+                                                                    border-radius:5px;
+                                                                    background:#FFFFFF;
+                                                                    box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.3);
+                                                                    transition:all 600ms ease;
+                                                                    -o-transition:all 600ms ease;
+                                                                    -ms-transition:all 600ms ease;
+                                                                    -moz-transition:all 600ms ease;
+                                                                    -webkit-transition:all 600ms ease;
+
+                                                                `
+
+                                                            // APPEND FIELD BUFFER TO SURROUNDER BLOCK ====
+                                                            // ////////////////////////////////////////////
+
+                                                                newInputField.appendChild(newBufferField)
+
+
+
+
+
+
+
+
+                                                    // CHANGE DIRECTION FOR TEXT ALIGN --------------------
+                                                    // ////////////////////////////////////////////////////
+
+                                                        var textAligner = getPageDirectionForInputCreate
+
+                                                        if ( getPageDirectionForInputCreate == "left" ) {
+
+                                                            textAligner = "right"
+
+                                                        } else {
+
+                                                            textAligner = "left"
+
+                                                        }
+
+
+                                                    // CREATE INPUT ELEMENT ACTUAL ------------------------
+                                                    // ////////////////////////////////////////////////////
+                                        
+                                                        var newInputActualField = document.createElement("input")
+                                                        newInputActualField.className = `extraBookName${numberOfDivsForClassMaker}InputActual`
+
+                                                            // STYLE INPUT ELEMENT ACTUAL =================
+                                                            // ///////////////////////////////////////////
+
+                                                            newInputActualField.style = `
+                                                                
+                                                                    width:90%;
+                                                                    outline:none;
+                                                                    margin:0px auto;
+                                                                    text-align:${textAligner};
+                                                                    background:rgba(0, 0, 0, 0.0);
+                                                                    font-family:'Oxygen', sans-serif;
+                                                                    border:0px solid rgba(0, 0, 0, 0.0);
+                                                                    transition:all 600ms ease;
+                                                                    -o-transition:all 600ms ease;
+                                                                    -ms-transition:all 600ms ease;
+                                                                    -moz-transition:all 600ms ease;
+                                                                    -webkit-transition:all 600ms ease;
+
+                                                                `
+
+                                                            // ADD ATTRIBUTES TO INPUT ELEMENT ACTUAL ====
+                                                            // ///////////////////////////////////////////
+
+                                                                newInputActualField.setAttribute("type","text")
+                                                                newInputActualField.setAttribute("maxlength","30")
+                                                                newInputActualField.setAttribute("id",`extraBookName${numberOfDivsForClassMaker}InputActual`)
+                                                                newInputActualField.setAttribute("name",`extraBookName${numberOfDivsForClassMaker}InputActual`)
+                                                                newInputActualField.setAttribute("placeholder",`${getTranslatedTray}`)
+
+                                                            // APPEND INPUT ELEMENT ACTUAL TO FIELD BUFFER BLOCK
+                                                            // ////////////////////////////////////////////
+
+                                                                newBufferField.appendChild(newInputActualField)
+
+                                                            // RESET TEXT ALIGNER .........................
+                                                            // ////////////////////////////////////////////
+
+                                                            textAligner = ""
+
+
+
+
+
 
                                                 }
 
 
-                                            // CREATE INPUT ELEMENT ACTUAL ------------------------
-                                            // ////////////////////////////////////////////////////
-                                
-                                                var newInputActualField = document.createElement("input")
-                                                newInputActualField.className = `extraBookName${numberOfDivsForClassMaker}InputActual`
-
-                                                    // STYLE INPUT ELEMENT ACTUAL =================
-                                                    // ///////////////////////////////////////////
-
-                                                    newInputActualField.style = `
-                                                        
-                                                            width:90%;
-                                                            outline:none;
-                                                            margin:0px auto;
-                                                            text-align:${textAligner};
-                                                            background:rgba(0, 0, 0, 0.0);
-                                                            font-family:'Oxygen', sans-serif;
-                                                            border:0px solid rgba(0, 0, 0, 0.0);
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        `
-
-                                                    // ADD ATTRIBUTES TO INPUT ELEMENT ACTUAL ====
-                                                    // ///////////////////////////////////////////
-
-                                                        newInputActualField.setAttribute("type","text")
-                                                        newInputActualField.setAttribute("maxlength","30")
-                                                        newInputActualField.setAttribute("id",`extraBookName${numberOfDivsForClassMaker}InputActual`)
-                                                        newInputActualField.setAttribute("name",`extraBookName${numberOfDivsForClassMaker}InputActual`)
-                                                        newInputActualField.setAttribute("placeholder",`${getTranslatedTray}`)
-
-                                                    // APPEND INPUT ELEMENT ACTUAL TO FIELD BUFFER BLOCK
-                                                    // ////////////////////////////////////////////
-
-                                                        newBufferField.appendChild(newInputActualField)
-
-                                                    // RESET TEXT ALIGNER .........................
-                                                    // ////////////////////////////////////////////
-
-                                                    textAligner = ""
+                                            
 
 
 
@@ -8950,7 +9077,6 @@ function completedHandlingBox (completedText) {
                                 // ////////////////////////////////////////////////////////
 
                                     var contributorNameSubmit = document.querySelector(".contributorName")
-                                    var contributorDefaultBookRrecommendationSubmit = document.querySelector(".bookNameOne")
 
 
                                         // PUSH THIS PART INTO SUBMISSION FIRST ^^^^^^^^^^^
@@ -8958,8 +9084,7 @@ function completedHandlingBox (completedText) {
 
                                             submissionElementsCollect = [
 
-                                                contributorNameSubmit.value,
-                                                contributorDefaultBookRrecommendationSubmit.value
+                                                contributorNameSubmit.value
                                                 
                                             ]
 
@@ -8976,7 +9101,7 @@ function completedHandlingBox (completedText) {
                                 // BOOK RECOMMENDATIONS FIELDS xxxxxxxxxxxxxxxxxxxxxxxxxxxx
                                 // ////////////////////////////////////////////////////////
 
-                                    var countElements = document.querySelector(".bookNameInputsContainer").childElementCount
+                                    var countElements = document.querySelector(".bookNameInputsContainer").children.length
 
                                 // BOOK RECOMMENDATIONS FIELDS xxxxxxxxxxxxxxxxxxxxxxxxxxxx
                                 // ////////////////////////////////////////////////////////
@@ -8994,7 +9119,7 @@ function completedHandlingBox (completedText) {
                                 // FUN LOOP FOR EXTRA FIELDS AND POPULATE SUBMIT ARRAY xxxx
                                 // ////////////////////////////////////////////////////////
 
-                                    for ( extraRecFieldCounter = 1; extraRecFieldCounter < countElements; extraRecFieldCounter ++ ) {
+                                    for ( extraRecFieldCounter = 0; extraRecFieldCounter < countElements; extraRecFieldCounter ++ ) {
 
                                         // VARIABLES FOR CLASSNAMES OF EXTRA FIELDS //////
                                         // ///////////////////////////////////////////////
